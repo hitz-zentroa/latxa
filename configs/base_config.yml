@@ -1,0 +1,39 @@
+{
+  "data_impl": "mmap",
+
+  "checkpoint_activations": true,
+  "checkpoint_num_layers": 1,
+  "partition_activations": true,
+  "synchronize_each_layer": true,
+
+  "precision": "bfloat16",
+  "fp32_allreduce": true,
+  "bf16": { "enabled": true },
+  "data_types": { "grad_accum_dtype": "fp32" },
+  "distributed_backend": "nccl",
+  "checkpoint_factor": 100,
+  "eval_interval": 100,
+  "eval_iters": 1,
+
+  "log_interval": 1,
+  "steps_per_print": 1,
+  "wall_clock_breakdown": true,
+
+  "checkpoint_validation_with_forward_pass": true,
+  "keep_last_n_checkpoints": 20,
+
+  "use_wandb": true,
+  "wandb_project": "llama-eus",
+  "wandb_team": "hitz-zentroa",
+  # "wandb":
+  #   {
+  #     "enabled": true,
+  #     "group": "llama-2-7b",
+  #     "project": "llama-eus",
+  #     "team": "hitz-zentroa",
+  #   },
+  # "wandb_host": "https://api.wandb.ai",
+  "launcher": "slurm",
+  "deepspeed_slurm": true,
+  "no_ssh_check": true,
+}

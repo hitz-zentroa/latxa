@@ -1,0 +1,35 @@
+{
+  "make_vocab_size_divisible_by": 1,
+
+  "num_layers": 80,
+  "hidden_size": 8192,
+  "num_attention_heads": 64,
+  "attention_type": "groupedquery",
+  "num_kv_heads": 8,
+  "seq_length": 4096,
+  "max_position_embeddings": 4096,
+  "pos_emb": "rotary",
+  "rotary_pct": 1,
+  "rotary_emb_base": 1000000,
+  "no_weight_tying": true,
+  "gpt_j_residual": false,
+  "output_layer_parallelism": "column",
+  "norm": "rmsnorm",
+  "rms_norm_epsilon": 1.0e-5,
+  # "multiple_of": 4096, 
+  # "ffn_dim_multiplier": 1.3,
+
+  "attention_config": [[["flash"], 80]],
+
+  "scaled_upper_triang_masked_softmax_fusion": true,
+  "bias_gelu_fusion": false,
+  "use_bias_in_norms": false,
+  "use_bias_in_attn_linear": false,
+  "mlp_type": "llama",
+  "activation": "silu",
+
+  "tokenizer_type": "SPMTokenizer",
+  "vocab-file": "/leonardo_scratch/large/userexternal/jetxaniz/Llama-2-70b/tokenizer.model", # use tokenizer.model from Meta download
+
+  "wandb_group": "llama-2-70b",
+}

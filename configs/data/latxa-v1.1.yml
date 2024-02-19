@@ -1,0 +1,44 @@
+{
+  "train-data-paths":
+    [
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/booktegi_bsc/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/colossal-oscar_1.0__05-06-23/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/colossal-oscar_1.0__06-07-22/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/colossal-oscar_bsc__03-04-23/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/cultura-x/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/egunkaria__01-06/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/euscrawl_v1/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/euscrawl_v1.202311/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/hplt_v1/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/wikipedia__20231101/train_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/thepile/train-sample-500k_text_document"
+    ],
+  "valid-data-paths":
+    [
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/booktegi_bsc/valid_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/colossal-oscar_1.0__05-06-23/valid_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/colossal-oscar_1.0__06-07-22/valid_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/colossal-oscar_bsc__03-04-23/valid_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/cultura-x/valid_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/egunkaria__01-06/valid_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/euscrawl_v1/valid_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/euscrawl_v1.202311/valid_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/hplt_v1/valid_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/wikipedia__20231101/valid_text_document",
+    ],
+  "test-data-paths":
+    [
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/booktegi_bsc/test_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/colossal-oscar_1.0__05-06-23/test_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/colossal-oscar_1.0__06-07-22/test_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/colossal-oscar_bsc__03-04-23/test_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/cultura-x/test_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/egunkaria__01-06/test_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/euscrawl_v1/test_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/euscrawl_v1.202311/test_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/hplt_v1/test_text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/ilenia/v1/wikipedia__20231101/test_text_document",
+    ],
+  "weight_by_num_documents": true,
+  "weighted_sampler_alpha": 1.0,
+}
