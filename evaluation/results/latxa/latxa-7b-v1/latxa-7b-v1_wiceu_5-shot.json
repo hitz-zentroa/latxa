@@ -1,0 +1,65 @@
+{
+  "results": {
+    "wiceu": {
+      "acc,none": 0.5014285714285714,
+      "acc_stderr,none": 0.01336778261331727,
+      "alias": "wiceu"
+    }
+  },
+  "configs": {
+    "wiceu": {
+      "task": "wiceu",
+      "group": "basque-glue-lm-eval-v1",
+      "dataset_path": "orai-nlp/basqueGLUE",
+      "dataset_name": "wic",
+      "validation_split": "validation",
+      "test_split": "test",
+      "process_docs": "<function process_wic_docs at 0x7fe664cbaac0>",
+      "doc_to_text": "1. esaldia: {{sentence1}}\n2. esaldia: {{sentence2}}\nGaldera: Aurreko bi esaldietan, \"{{word}}\" hitzak esanahi berdina du?\nErantzuna:",
+      "doc_to_target": "label",
+      "doc_to_choice": [
+        "ez",
+        "bai"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": [
+        {
+          "version": 1.0
+        }
+      ]
+    }
+  },
+  "versions": {
+    "wiceu": "Yaml"
+  },
+  "n-shot": {
+    "wiceu": 5
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/gaueko1/hizkuntza-ereduak/llama-2-eus/Llama-2-7b-hf-eus-v0/global_step2000,tokenizer=/gaueko1/hizkuntza-ereduak/LLaMA-2/huggingface/first-release/Llama-2-7b-hf",
+    "batch_size": "auto",
+    "batch_sizes": [
+      32
+    ],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": null
+}

@@ -1,0 +1,1490 @@
+{
+  "results": {
+    "oposizioak_eu": {
+      "acc,none": 0.4317603663190028,
+      "acc_stderr,none": 0.06267470834594414,
+      "acc_norm,none": 0.4317603663190028,
+      "acc_norm_stderr,none": 0.06267470834594414,
+      "alias": "oposizioak_eu"
+    },
+    "oposizioak_eu_ejadministrari": {
+      "acc,none": 0.4698275862068966,
+      "acc_stderr,none": 0.01893151707526563,
+      "acc_norm,none": 0.4698275862068966,
+      "acc_norm_stderr,none": 0.01893151707526563,
+      "alias": " - oposizioak_eu_ejadministrari"
+    },
+    "oposizioak_eu_ejlaguntza": {
+      "acc,none": 0.5441767068273092,
+      "acc_stderr,none": 0.0223403532975768,
+      "acc_norm,none": 0.5441767068273092,
+      "acc_norm_stderr,none": 0.0223403532975768,
+      "alias": " - oposizioak_eu_ejlaguntza"
+    },
+    "oposizioak_eu_ejlaguntzaile": {
+      "acc,none": 0.4734576757532281,
+      "acc_stderr,none": 0.01892572843704991,
+      "acc_norm,none": 0.4734576757532281,
+      "acc_norm_stderr,none": 0.01892572843704991,
+      "alias": " - oposizioak_eu_ejlaguntzaile"
+    },
+    "oposizioak_eu_ejteknikari": {
+      "acc,none": 0.487627365356623,
+      "acc_stderr,none": 0.01908424311175735,
+      "acc_norm,none": 0.487627365356623,
+      "acc_norm_stderr,none": 0.01908424311175735,
+      "alias": " - oposizioak_eu_ejteknikari"
+    },
+    "oposizioak_eu_opebilbaoeu": {
+      "acc,none": 0.4111111111111111,
+      "acc_stderr,none": 0.019618733359220427,
+      "acc_norm,none": 0.4111111111111111,
+      "acc_norm_stderr,none": 0.019618733359220427,
+      "alias": " - oposizioak_eu_opebilbaoeu"
+    },
+    "oposizioak_eu_opeehuadmineu": {
+      "acc,none": 0.5430861723446894,
+      "acc_stderr,none": 0.022322192648661157,
+      "acc_norm,none": 0.5430861723446894,
+      "acc_norm_stderr,none": 0.022322192648661157,
+      "alias": " - oposizioak_eu_opeehuadmineu"
+    },
+    "oposizioak_eu_opeehuauxeu": {
+      "acc,none": 0.5444444444444444,
+      "acc_stderr,none": 0.023503053460253113,
+      "acc_norm,none": 0.5444444444444444,
+      "acc_norm_stderr,none": 0.023503053460253113,
+      "alias": " - oposizioak_eu_opeehuauxeu"
+    },
+    "oposizioak_eu_opeehubiblioeu": {
+      "acc,none": 0.4674457429048414,
+      "acc_stderr,none": 0.020403136863922075,
+      "acc_norm,none": 0.4674457429048414,
+      "acc_norm_stderr,none": 0.020403136863922075,
+      "alias": " - oposizioak_eu_opeehubiblioeu"
+    },
+    "oposizioak_eu_opeehuderechoeu": {
+      "acc,none": 0.44,
+      "acc_stderr,none": 0.018775078602709314,
+      "acc_norm,none": 0.44,
+      "acc_norm_stderr,none": 0.018775078602709314,
+      "alias": " - oposizioak_eu_opeehuderechoeu"
+    },
+    "oposizioak_eu_opeehueconomicaseu": {
+      "acc,none": 0.45014245014245013,
+      "acc_stderr,none": 0.0265929219757117,
+      "acc_norm,none": 0.45014245014245013,
+      "acc_norm_stderr,none": 0.0265929219757117,
+      "alias": " - oposizioak_eu_opeehueconomicaseu"
+    },
+    "oposizioak_eu_opeehuempresarialeseu": {
+      "acc,none": 0.5035714285714286,
+      "acc_stderr,none": 0.029933453366737285,
+      "acc_norm,none": 0.5035714285714286,
+      "acc_norm_stderr,none": 0.029933453366737285,
+      "alias": " - oposizioak_eu_opeehuempresarialeseu"
+    },
+    "oposizioak_eu_opeehusubalternoeu": {
+      "acc,none": 0.545,
+      "acc_stderr,none": 0.024929725792117708,
+      "acc_norm,none": 0.545,
+      "acc_norm_stderr,none": 0.024929725792117708,
+      "alias": " - oposizioak_eu_opeehusubalternoeu"
+    },
+    "oposizioak_eu_opeehutecnicoeu": {
+      "acc,none": 0.46494992846924177,
+      "acc_stderr,none": 0.018878722141420598,
+      "acc_norm,none": 0.46494992846924177,
+      "acc_norm_stderr,none": 0.018878722141420598,
+      "alias": " - oposizioak_eu_opeehutecnicoeu"
+    },
+    "oposizioak_eu_opeehuteknikarib": {
+      "acc,none": 0.5075125208681135,
+      "acc_stderr,none": 0.020444212452256215,
+      "acc_norm,none": 0.5075125208681135,
+      "acc_norm_stderr,none": 0.020444212452256215,
+      "alias": " - oposizioak_eu_opeehuteknikarib"
+    },
+    "oposizioak_eu_opegasteizkoudala": {
+      "acc,none": 0.49722222222222223,
+      "acc_stderr,none": 0.02638858345780985,
+      "acc_norm,none": 0.49722222222222223,
+      "acc_norm_stderr,none": 0.02638858345780985,
+      "alias": " - oposizioak_eu_opegasteizkoudala"
+    },
+    "oposizioak_eu_opeosakiadmineu": {
+      "acc,none": 0.3601694915254237,
+      "acc_stderr,none": 0.031314970174345945,
+      "acc_norm,none": 0.3601694915254237,
+      "acc_norm_stderr,none": 0.031314970174345945,
+      "alias": " - oposizioak_eu_opeosakiadmineu"
+    },
+    "oposizioak_eu_opeosakiauxenfeu": {
+      "acc,none": 0.3592814371257485,
+      "acc_stderr,none": 0.03723891329010206,
+      "acc_norm,none": 0.3592814371257485,
+      "acc_norm_stderr,none": 0.03723891329010206,
+      "alias": " - oposizioak_eu_opeosakiauxenfeu"
+    },
+    "oposizioak_eu_opeosakiauxeu": {
+      "acc,none": 0.38181818181818183,
+      "acc_stderr,none": 0.037937131711656344,
+      "acc_norm,none": 0.38181818181818183,
+      "acc_norm_stderr,none": 0.037937131711656344,
+      "alias": " - oposizioak_eu_opeosakiauxeu"
+    },
+    "oposizioak_eu_opeosakiceladoreu": {
+      "acc,none": 0.3803680981595092,
+      "acc_stderr,none": 0.03814269893261836,
+      "acc_norm,none": 0.3803680981595092,
+      "acc_norm_stderr,none": 0.03814269893261836,
+      "alias": " - oposizioak_eu_opeosakiceladoreu"
+    },
+    "oposizioak_eu_opeosakienfeu": {
+      "acc,none": 0.35924932975871315,
+      "acc_stderr,none": 0.024875455840996843,
+      "acc_norm,none": 0.35924932975871315,
+      "acc_norm_stderr,none": 0.024875455840996843,
+      "alias": " - oposizioak_eu_opeosakienfeu"
+    },
+    "oposizioak_eu_opeosakioperarioeu": {
+      "acc,none": 0.3435114503816794,
+      "acc_stderr,none": 0.041649760719448786,
+      "acc_norm,none": 0.3435114503816794,
+      "acc_norm_stderr,none": 0.041649760719448786,
+      "alias": " - oposizioak_eu_opeosakioperarioeu"
+    },
+    "oposizioak_eu_opeosakitecnicoeu": {
+      "acc,none": 0.3644859813084112,
+      "acc_stderr,none": 0.026904690038289263,
+      "acc_norm,none": 0.3644859813084112,
+      "acc_norm_stderr,none": 0.026904690038289263,
+      "alias": " - oposizioak_eu_opeosakitecnicoeu"
+    },
+    "oposizioak_eu_opeosakivarioseu": {
+      "acc,none": 0.38721804511278196,
+      "acc_stderr,none": 0.02992318660836959,
+      "acc_norm,none": 0.38721804511278196,
+      "acc_norm_stderr,none": 0.02992318660836959,
+      "alias": " - oposizioak_eu_opeosakivarioseu"
+    },
+    "oposizioak_eu_osakidetza1e": {
+      "acc,none": 0.3075734157650695,
+      "acc_stderr,none": 0.01815703812740034,
+      "acc_norm,none": 0.3075734157650695,
+      "acc_norm_stderr,none": 0.01815703812740034,
+      "alias": " - oposizioak_eu_osakidetza1e"
+    },
+    "oposizioak_eu_osakidetza2e": {
+      "acc,none": 0.34358288770053474,
+      "acc_stderr,none": 0.017375823999988407,
+      "acc_norm,none": 0.34358288770053474,
+      "acc_norm_stderr,none": 0.017375823999988407,
+      "alias": " - oposizioak_eu_osakidetza2e"
+    },
+    "oposizioak_eu_osakidetza3e": {
+      "acc,none": 0.4080145719489982,
+      "acc_stderr,none": 0.020994380592704,
+      "acc_norm,none": 0.4080145719489982,
+      "acc_norm_stderr,none": 0.020994380592704,
+      "alias": " - oposizioak_eu_osakidetza3e"
+    },
+    "oposizioak_eu_osakidetza5e": {
+      "acc,none": 0.42,
+      "acc_stderr,none": 0.019373866088395822,
+      "acc_norm,none": 0.42,
+      "acc_norm_stderr,none": 0.019373866088395822,
+      "alias": " - oposizioak_eu_osakidetza5e"
+    },
+    "oposizioak_eu_osakidetza6e": {
+      "acc,none": 0.404,
+      "acc_stderr,none": 0.015524980677122583,
+      "acc_norm,none": 0.404,
+      "acc_norm_stderr,none": 0.015524980677122583,
+      "alias": " - oposizioak_eu_osakidetza6e"
+    },
+    "oposizioak_eu_osakidetza7e": {
+      "acc,none": 0.37540453074433655,
+      "acc_stderr,none": 0.010414089959121391,
+      "acc_norm,none": 0.37540453074433655,
+      "acc_norm_stderr,none": 0.010414089959121391,
+      "alias": " - oposizioak_eu_osakidetza7e"
+    }
+  },
+  "groups": {
+    "oposizioak_eu": {
+      "acc,none": 0.4317603663190028,
+      "acc_stderr,none": 0.06267470834594414,
+      "acc_norm,none": 0.4317603663190028,
+      "acc_norm_stderr,none": 0.06267470834594414,
+      "alias": "oposizioak_eu"
+    }
+  },
+  "configs": {
+    "oposizioak_eu_ejadministrari": {
+      "task": "oposizioak_eu_ejadministrari",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_ejadministrari",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea264e50>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_ejlaguntza": {
+      "task": "oposizioak_eu_ejlaguntza",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_ejlaguntza",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea29e160>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_ejlaguntzaile": {
+      "task": "oposizioak_eu_ejlaguntzaile",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_ejlaguntzaile",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea264ca0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_ejteknikari": {
+      "task": "oposizioak_eu_ejteknikari",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_ejteknikari",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea29e820>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opebilbaoeu": {
+      "task": "oposizioak_eu_opebilbaoeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opebilbaoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2c0040>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeehuadmineu": {
+      "task": "oposizioak_eu_opeehuadmineu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeehuadmineu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2c0a60>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeehuauxeu": {
+      "task": "oposizioak_eu_opeehuauxeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeehuauxeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2b1430>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeehubiblioeu": {
+      "task": "oposizioak_eu_opeehubiblioeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeehubiblioeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2b1e50>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeehuderechoeu": {
+      "task": "oposizioak_eu_opeehuderechoeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeehuderechoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea251b80>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeehueconomicaseu": {
+      "task": "oposizioak_eu_opeehueconomicaseu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeehueconomicaseu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea324ca0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeehuempresarialeseu": {
+      "task": "oposizioak_eu_opeehuempresarialeseu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeehuempresarialeseu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2c03a0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeehusubalternoeu": {
+      "task": "oposizioak_eu_opeehusubalternoeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeehusubalternoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2b10d0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeehutecnicoeu": {
+      "task": "oposizioak_eu_opeehutecnicoeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeehutecnicoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2b1280>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeehuteknikarib": {
+      "task": "oposizioak_eu_opeehuteknikarib",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeehuteknikarib",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea29e310>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opegasteizkoudala": {
+      "task": "oposizioak_eu_opegasteizkoudala",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opegasteizkoudala",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea29ed30>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeosakiadmineu": {
+      "task": "oposizioak_eu_opeosakiadmineu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeosakiadmineu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2645e0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeosakiauxenfeu": {
+      "task": "oposizioak_eu_opeosakiauxenfeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeosakiauxenfeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2640d0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeosakiauxeu": {
+      "task": "oposizioak_eu_opeosakiauxeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeosakiauxeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea251d30>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeosakiceladoreu": {
+      "task": "oposizioak_eu_opeosakiceladoreu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeosakiceladoreu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea324940>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeosakienfeu": {
+      "task": "oposizioak_eu_opeosakienfeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeosakienfeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea28ec10>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeosakioperarioeu": {
+      "task": "oposizioak_eu_opeosakioperarioeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeosakioperarioeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2514c0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeosakitecnicoeu": {
+      "task": "oposizioak_eu_opeosakitecnicoeu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeosakitecnicoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea28e700>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_opeosakivarioseu": {
+      "task": "oposizioak_eu_opeosakivarioseu",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_opeosakivarioseu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2c08b0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_osakidetza1e": {
+      "task": "oposizioak_eu_osakidetza1e",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_osakidetza1e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea28edc0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_osakidetza2e": {
+      "task": "oposizioak_eu_osakidetza2e",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_osakidetza2e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea29eb80>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_osakidetza3e": {
+      "task": "oposizioak_eu_osakidetza3e",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_osakidetza3e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea28e1f0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_osakidetza5e": {
+      "task": "oposizioak_eu_osakidetza5e",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_osakidetza5e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2b1ca0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_osakidetza6e": {
+      "task": "oposizioak_eu_osakidetza6e",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_osakidetza6e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea3245e0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "oposizioak_eu_osakidetza7e": {
+      "task": "oposizioak_eu_osakidetza7e",
+      "group": [
+        "oposizioak_eu"
+      ],
+      "dataset_path": "HiTZ/oposizioak",
+      "dataset_name": "eu_osakidetza7e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "<function process_docs at 0x7f10ea2c01f0>",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    }
+  },
+  "versions": {
+    "oposizioak_eu": "N/A",
+    "oposizioak_eu_ejadministrari": "Yaml",
+    "oposizioak_eu_ejlaguntza": "Yaml",
+    "oposizioak_eu_ejlaguntzaile": "Yaml",
+    "oposizioak_eu_ejteknikari": "Yaml",
+    "oposizioak_eu_opebilbaoeu": "Yaml",
+    "oposizioak_eu_opeehuadmineu": "Yaml",
+    "oposizioak_eu_opeehuauxeu": "Yaml",
+    "oposizioak_eu_opeehubiblioeu": "Yaml",
+    "oposizioak_eu_opeehuderechoeu": "Yaml",
+    "oposizioak_eu_opeehueconomicaseu": "Yaml",
+    "oposizioak_eu_opeehuempresarialeseu": "Yaml",
+    "oposizioak_eu_opeehusubalternoeu": "Yaml",
+    "oposizioak_eu_opeehutecnicoeu": "Yaml",
+    "oposizioak_eu_opeehuteknikarib": "Yaml",
+    "oposizioak_eu_opegasteizkoudala": "Yaml",
+    "oposizioak_eu_opeosakiadmineu": "Yaml",
+    "oposizioak_eu_opeosakiauxenfeu": "Yaml",
+    "oposizioak_eu_opeosakiauxeu": "Yaml",
+    "oposizioak_eu_opeosakiceladoreu": "Yaml",
+    "oposizioak_eu_opeosakienfeu": "Yaml",
+    "oposizioak_eu_opeosakioperarioeu": "Yaml",
+    "oposizioak_eu_opeosakitecnicoeu": "Yaml",
+    "oposizioak_eu_opeosakivarioseu": "Yaml",
+    "oposizioak_eu_osakidetza1e": "Yaml",
+    "oposizioak_eu_osakidetza2e": "Yaml",
+    "oposizioak_eu_osakidetza3e": "Yaml",
+    "oposizioak_eu_osakidetza5e": "Yaml",
+    "oposizioak_eu_osakidetza6e": "Yaml",
+    "oposizioak_eu_osakidetza7e": "Yaml"
+  },
+  "n-shot": {
+    "oposizioak_eu": 5,
+    "oposizioak_eu_ejadministrari": 5,
+    "oposizioak_eu_ejlaguntza": 5,
+    "oposizioak_eu_ejlaguntzaile": 5,
+    "oposizioak_eu_ejteknikari": 5,
+    "oposizioak_eu_opebilbaoeu": 5,
+    "oposizioak_eu_opeehuadmineu": 5,
+    "oposizioak_eu_opeehuauxeu": 5,
+    "oposizioak_eu_opeehubiblioeu": 5,
+    "oposizioak_eu_opeehuderechoeu": 5,
+    "oposizioak_eu_opeehueconomicaseu": 5,
+    "oposizioak_eu_opeehuempresarialeseu": 5,
+    "oposizioak_eu_opeehusubalternoeu": 5,
+    "oposizioak_eu_opeehutecnicoeu": 5,
+    "oposizioak_eu_opeehuteknikarib": 5,
+    "oposizioak_eu_opegasteizkoudala": 5,
+    "oposizioak_eu_opeosakiadmineu": 5,
+    "oposizioak_eu_opeosakiauxenfeu": 5,
+    "oposizioak_eu_opeosakiauxeu": 5,
+    "oposizioak_eu_opeosakiceladoreu": 5,
+    "oposizioak_eu_opeosakienfeu": 5,
+    "oposizioak_eu_opeosakioperarioeu": 5,
+    "oposizioak_eu_opeosakitecnicoeu": 5,
+    "oposizioak_eu_opeosakivarioseu": 5,
+    "oposizioak_eu_osakidetza1e": 5,
+    "oposizioak_eu_osakidetza2e": 5,
+    "oposizioak_eu_osakidetza3e": 5,
+    "oposizioak_eu_osakidetza5e": 5,
+    "oposizioak_eu_osakidetza6e": 5,
+    "oposizioak_eu_osakidetza7e": 5
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/proiektuak/ilenia-scratch/models/Llama-2-13b-hf-eus-v1.1_500k/global_step10000,tokenizer=/gaueko1/hizkuntza-ereduak/llama-2-eus/latxa-7b-v1",
+    "batch_size": 1,
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "59642ab"
+}

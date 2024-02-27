@@ -1,0 +1,63 @@
+{
+  "results": {
+    "vaxx_stance": {
+      "f1,none": 0.5454521283667011,
+      "f1_stderr,none": "N/A",
+      "alias": "vaxx_stance"
+    }
+  },
+  "configs": {
+    "vaxx_stance": {
+      "task": "vaxx_stance",
+      "group": "basque-glue-lm-eval-v1",
+      "dataset_path": "orai-nlp/basqueGLUE",
+      "dataset_name": "vaxx",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "Testua: {{text}}\nGaldera: Nolako jarrera agertzen du aurreko testuak txertoei buruz?\nErantzuna:",
+      "doc_to_target": "label",
+      "doc_to_choice": [
+        "aurka",
+        "neutrala",
+        "alde"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "<function vaxx_f1_score at 0x7f3adecdc940>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": [
+        {
+          "version": 1.0
+        }
+      ]
+    }
+  },
+  "versions": {
+    "vaxx_stance": "Yaml"
+  },
+  "n-shot": {
+    "vaxx_stance": 5
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/proiektuak/ilenia-scratch/models/Llama-2-70b-hf-eus-v1.1_500k/global_step10000_hf,tokenizer=/gaueko1/hizkuntza-ereduak/llama-2-eus/latxa-7b-v1,parallelize=True,dtype=float16",
+    "batch_size": 1,
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "e57707a"
+}

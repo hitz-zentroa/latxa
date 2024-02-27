@@ -1,0 +1,64 @@
+{
+  "results": {
+    "qnlieu": {
+      "acc,none": 0.5714285714285714,
+      "acc_stderr,none": 0.032145368597886394,
+      "alias": "qnlieu"
+    }
+  },
+  "configs": {
+    "qnlieu": {
+      "task": "qnlieu",
+      "group": "basque-glue-lm-eval-v1",
+      "dataset_path": "orai-nlp/basqueGLUE",
+      "dataset_name": "qnli",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "{{question}}\n{{sentence}}\nGaldera: aurreko galderari erantzuten al dio emandako testuak?\nErantzuna:",
+      "doc_to_target": "label",
+      "doc_to_choice": [
+        "bai",
+        "ez"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": [
+        {
+          "version": 1.0
+        }
+      ]
+    }
+  },
+  "versions": {
+    "qnlieu": "Yaml"
+  },
+  "n-shot": {
+    "qnlieu": 5
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/gaueko1/hizkuntza-ereduak/llama-2-eus/Llama-2-13b-hf-eus-v0/global_step1000,tokenizer=/gaueko1/hizkuntza-ereduak/LLaMA-2/huggingface/first-release/Llama-2-13b-hf",
+    "batch_size": "auto",
+    "batch_sizes": [
+      16
+    ],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": null
+}

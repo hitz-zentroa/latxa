@@ -1,0 +1,56 @@
+{
+  "results": {
+    "triviaeus": {
+      "acc,none": 0.5644314868804665,
+      "acc_stderr,none": 0.011976459394884769,
+      "alias": "triviaeus"
+    }
+  },
+  "configs": {
+    "triviaeus": {
+      "task": "triviaeus",
+      "dataset_path": "HiTZ/triviaeus",
+      "dataset_name": "default",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "<function doc_to_text at 0x7fc3b20784c0>",
+      "doc_to_target": "answer",
+      "doc_to_choice": "<function doc_to_choice at 0x7fc3b2078700>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    }
+  },
+  "versions": {
+    "triviaeus": "Yaml"
+  },
+  "n-shot": {
+    "triviaeus": 5
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/proiektuak/ilenia-scratch/models/Llama-2-13b-hf-eus-v1.1_500k/global_step10000,tokenizer=/gaueko1/hizkuntza-ereduak/llama-2-eus/latxa-7b-v1",
+    "batch_size": 1,
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "75a76af"
+}
