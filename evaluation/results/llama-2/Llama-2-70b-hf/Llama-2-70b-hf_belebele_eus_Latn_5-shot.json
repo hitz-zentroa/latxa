@@ -1,0 +1,75 @@
+{
+  "results": {
+    "belebele_eus_Latn": {
+      "acc,none": 0.33555555555555555,
+      "acc_stderr,none": 0.01574822852093771,
+      "acc_norm,none": 0.33555555555555555,
+      "acc_norm_stderr,none": 0.01574822852093771,
+      "alias": "belebele_eus_Latn"
+    }
+  },
+  "configs": {
+    "belebele_eus_Latn": {
+      "task": "belebele_eus_Latn",
+      "group": "belebele",
+      "dataset_path": "facebook/belebele",
+      "dataset_name": "default",
+      "test_split": "eus_Latn",
+      "fewshot_split": "eus_Latn",
+      "doc_to_text": "P: {{flores_passage}}\nQ: {{question.strip()}}\nA: {{mc_answer1}}\nB: {{mc_answer2}}\nC: {{mc_answer3}}\nD: {{mc_answer4}}\nAnswer：",
+      "doc_to_target": "{{['1', '2', '3', '4'].index(correct_answer_num)}}",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "{{question}}",
+      "metadata": {
+        "version": 0.0
+      }
+    }
+  },
+  "versions": {
+    "belebele_eus_Latn": "Yaml"
+  },
+  "n-shot": {
+    "belebele_eus_Latn": 5
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=meta-llama/Llama-2-70b-hf,parallelize=True",
+    "batch_size": "auto",
+    "batch_sizes": [
+      8
+    ],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "983cf24"
+}

@@ -1,0 +1,58 @@
+{
+  "results": {
+    "irakurmena": {
+      "acc,none": 0.24431818181818182,
+      "acc_stderr,none": 0.022934740058925485,
+      "alias": "irakurmena"
+    }
+  },
+  "configs": {
+    "irakurmena": {
+      "task": "irakurmena",
+      "dataset_path": "HiTZ/irakurmena",
+      "dataset_name": "default",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "<function doc_to_text_context at 0x7f930e8b1d30>",
+      "doc_to_target": "answer",
+      "doc_to_choice": "<function doc_to_choice at 0x7f930e8da160>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    }
+  },
+  "versions": {
+    "irakurmena": "Yaml"
+  },
+  "n-shot": {
+    "irakurmena": 5
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=facebook/xglm-7.5B,dtype=float16",
+    "batch_size": "auto",
+    "batch_sizes": [
+      16
+    ],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "75a76af"
+}

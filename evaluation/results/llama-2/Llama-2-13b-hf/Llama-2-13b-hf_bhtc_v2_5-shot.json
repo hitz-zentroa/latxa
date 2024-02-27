@@ -1,0 +1,74 @@
+{
+  "results": {
+    "bhtc_v2": {
+      "f1,none": 0.27346278317152106,
+      "f1_stderr,none": "N/A",
+      "alias": "bhtc_v2"
+    }
+  },
+  "configs": {
+    "bhtc_v2": {
+      "task": "bhtc_v2",
+      "group": "basque-glue-lm-eval-v1",
+      "dataset_path": "orai-nlp/basqueGLUE",
+      "dataset_name": "bhtc",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "Testua: {{text}}\nGaldera: Zein da aurreko testuaren gaia?\nErantzuna:",
+      "doc_to_target": "label",
+      "doc_to_choice": [
+        "Ekonomia",
+        "Euskal Herria",
+        "Euskara",
+        "Gizartea",
+        "Historia",
+        "Ingurumena",
+        "Iritzia",
+        "Komunikazioa",
+        "Kultura",
+        "Nazioartea",
+        "Politika",
+        "Zientzia"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "f1",
+          "aggregation": "<function micro_f1_score at 0x7fe4d2b098a0>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": [
+        {
+          "version": 1.0
+        }
+      ]
+    }
+  },
+  "versions": {
+    "bhtc_v2": "Yaml"
+  },
+  "n-shot": {
+    "bhtc_v2": 5
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/gaueko1/hizkuntza-ereduak/LLaMA-2/huggingface/first-release/Llama-2-13b-hf/,dtype=float16",
+    "batch_size": "auto",
+    "batch_sizes": [
+      16
+    ],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": null
+}

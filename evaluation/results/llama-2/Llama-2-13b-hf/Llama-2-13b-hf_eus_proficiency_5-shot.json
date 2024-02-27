@@ -1,0 +1,63 @@
+{
+  "results": {
+    "atarikoa": {
+      "acc,none": 0.2590443025730315,
+      "acc_stderr,none": 0.0060942728005076345,
+      "alias": "atarikoa"
+    }
+  },
+  "configs": {
+    "atarikoa": {
+      "task": "atarikoa",
+      "dataset_path": "HiTZ/atarikoa",
+      "dataset_name": "default",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    }
+  },
+  "versions": {
+    "atarikoa": "Yaml"
+  },
+  "n-shot": {
+    "atarikoa": 5
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=meta-llama/Llama-2-13b-hf",
+    "batch_size": "auto",
+    "batch_sizes": [
+      32
+    ],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "75a76af"
+}
