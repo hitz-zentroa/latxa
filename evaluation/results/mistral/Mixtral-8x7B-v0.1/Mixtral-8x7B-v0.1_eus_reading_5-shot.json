@@ -1,15 +1,15 @@
 {
   "results": {
-    "irakurmena": {
+    "eus_reading": {
       "acc,none": 0.375,
       "acc_stderr,none": 0.025840569706085094,
-      "alias": "irakurmena"
+      "alias": "eus_reading"
     }
   },
   "configs": {
-    "irakurmena": {
-      "task": "irakurmena",
-      "dataset_path": "HiTZ/irakurmena",
+    "eus_reading": {
+      "task": "eus_reading",
+      "dataset_path": "HiTZ/EusReading",
       "dataset_name": "default",
       "test_split": "test",
       "fewshot_split": "test",
@@ -36,10 +36,10 @@
     }
   },
   "versions": {
-    "irakurmena": "Yaml"
+    "eus_reading": "Yaml"
   },
   "n-shot": {
-    "irakurmena": 5
+    "eus_reading": 5
   },
   "config": {
     "model": "hf",
