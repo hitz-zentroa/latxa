@@ -1,15 +1,15 @@
 {
   "results": {
-    "triviaeus": {
+    "eus_trivia": {
       "acc,none": 0.42565597667638483,
       "acc_stderr,none": 0.011942905946548604,
-      "alias": "triviaeus"
+      "alias": "eus_trivia"
     }
   },
   "configs": {
-    "triviaeus": {
-      "task": "triviaeus",
-      "dataset_path": "HiTZ/triviaeus",
+    "eus_trivia": {
+      "task": "eus_trivia",
+      "dataset_path": "HiTZ/EusTrivia",
       "dataset_name": "default",
       "test_split": "test",
       "fewshot_split": "test",
@@ -36,10 +36,10 @@
     }
   },
   "versions": {
-    "triviaeus": "Yaml"
+    "eus_trivia": "Yaml"
   },
   "n-shot": {
-    "triviaeus": 5
+    "eus_trivia": 5
   },
   "config": {
     "model": "hf",
