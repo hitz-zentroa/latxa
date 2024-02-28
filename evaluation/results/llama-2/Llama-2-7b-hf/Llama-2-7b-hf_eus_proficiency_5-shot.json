@@ -1,15 +1,15 @@
 {
   "results": {
-    "atarikoa": {
+    "eus_proficiency": {
       "acc,none": 0.240858966918166,
       "acc_stderr,none": 0.005948142856312255,
-      "alias": "atarikoa"
+      "alias": "eus_proficiency"
     }
   },
   "configs": {
-    "atarikoa": {
-      "task": "atarikoa",
-      "dataset_path": "HiTZ/atarikoa",
+    "eus_proficiency": {
+      "task": "eus_proficiency",
+      "dataset_path": "HiTZ/EusProficiency",
       "dataset_name": "default",
       "test_split": "test",
       "fewshot_split": "test",
@@ -41,10 +41,10 @@
     }
   },
   "versions": {
-    "atarikoa": "Yaml"
+    "eus_proficiency": "Yaml"
   },
   "n-shot": {
-    "atarikoa": 5
+    "eus_proficiency": 5
   },
   "config": {
     "model": "hf",

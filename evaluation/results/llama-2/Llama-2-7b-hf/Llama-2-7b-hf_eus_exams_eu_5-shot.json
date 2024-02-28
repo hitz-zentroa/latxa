@@ -1,232 +1,232 @@
 {
   "results": {
-    "oposizioak_eu": {
+    "eus_exams_eu": {
       "acc,none": 0.28841261765454085,
       "acc_stderr,none": 0.029115116435858172,
       "acc_norm,none": 0.28841261765454085,
       "acc_norm_stderr,none": 0.029115116435858172,
-      "alias": "oposizioak_eu"
+      "alias": "eus_exams_eu"
     },
-    "oposizioak_eu_ejadministrari": {
+    "eus_exams_eu_ejadministrari": {
       "acc,none": 0.26580459770114945,
       "acc_stderr,none": 0.01675693836933766,
       "acc_norm,none": 0.26580459770114945,
       "acc_norm_stderr,none": 0.01675693836933766,
-      "alias": " - oposizioak_eu_ejadministrari"
+      "alias": " - eus_exams_eu_ejadministrari"
     },
-    "oposizioak_eu_ejlaguntza": {
+    "eus_exams_eu_ejlaguntza": {
       "acc,none": 0.3192771084337349,
       "acc_stderr,none": 0.02091177387616228,
       "acc_norm,none": 0.3192771084337349,
       "acc_norm_stderr,none": 0.02091177387616228,
-      "alias": " - oposizioak_eu_ejlaguntza"
+      "alias": " - eus_exams_eu_ejlaguntza"
     },
-    "oposizioak_eu_ejlaguntzaile": {
+    "eus_exams_eu_ejlaguntzaile": {
       "acc,none": 0.3127690100430416,
       "acc_stderr,none": 0.017573513753140126,
       "acc_norm,none": 0.3127690100430416,
       "acc_norm_stderr,none": 0.017573513753140126,
-      "alias": " - oposizioak_eu_ejlaguntzaile"
+      "alias": " - eus_exams_eu_ejlaguntzaile"
     },
-    "oposizioak_eu_ejteknikari": {
+    "eus_exams_eu_ejteknikari": {
       "acc,none": 0.3158660844250364,
       "acc_stderr,none": 0.017748432408709183,
       "acc_norm,none": 0.3158660844250364,
       "acc_norm_stderr,none": 0.017748432408709183,
-      "alias": " - oposizioak_eu_ejteknikari"
+      "alias": " - eus_exams_eu_ejteknikari"
     },
-    "oposizioak_eu_opebilbaoeu": {
+    "eus_exams_eu_opebilbaoeu": {
       "acc,none": 0.30634920634920637,
       "acc_stderr,none": 0.0183803383112574,
       "acc_norm,none": 0.30634920634920637,
       "acc_norm_stderr,none": 0.0183803383112574,
-      "alias": " - oposizioak_eu_opebilbaoeu"
+      "alias": " - eus_exams_eu_opebilbaoeu"
     },
-    "oposizioak_eu_opeehuadmineu": {
+    "eus_exams_eu_opeehuadmineu": {
       "acc,none": 0.2965931863727455,
       "acc_stderr,none": 0.020467707358619434,
       "acc_norm,none": 0.2965931863727455,
       "acc_norm_stderr,none": 0.020467707358619434,
-      "alias": " - oposizioak_eu_opeehuadmineu"
+      "alias": " - eus_exams_eu_opeehuadmineu"
     },
-    "oposizioak_eu_opeehuauxeu": {
+    "eus_exams_eu_opeehuauxeu": {
       "acc,none": 0.2822222222222222,
       "acc_stderr,none": 0.021240632129085765,
       "acc_norm,none": 0.2822222222222222,
       "acc_norm_stderr,none": 0.021240632129085765,
-      "alias": " - oposizioak_eu_opeehuauxeu"
+      "alias": " - eus_exams_eu_opeehuauxeu"
     },
-    "oposizioak_eu_opeehubiblioeu": {
+    "eus_exams_eu_opeehubiblioeu": {
       "acc,none": 0.25041736227045075,
       "acc_stderr,none": 0.017717048973263136,
       "acc_norm,none": 0.25041736227045075,
       "acc_norm_stderr,none": 0.017717048973263136,
-      "alias": " - oposizioak_eu_opeehubiblioeu"
+      "alias": " - eus_exams_eu_opeehubiblioeu"
     },
-    "oposizioak_eu_opeehuderechoeu": {
+    "eus_exams_eu_opeehuderechoeu": {
       "acc,none": 0.28714285714285714,
       "acc_stderr,none": 0.017112429567021057,
       "acc_norm,none": 0.28714285714285714,
       "acc_norm_stderr,none": 0.017112429567021057,
-      "alias": " - oposizioak_eu_opeehuderechoeu"
+      "alias": " - eus_exams_eu_opeehuderechoeu"
     },
-    "oposizioak_eu_opeehueconomicaseu": {
+    "eus_exams_eu_opeehueconomicaseu": {
       "acc,none": 0.25925925925925924,
       "acc_stderr,none": 0.023424278964210173,
       "acc_norm,none": 0.25925925925925924,
       "acc_norm_stderr,none": 0.023424278964210173,
-      "alias": " - oposizioak_eu_opeehueconomicaseu"
+      "alias": " - eus_exams_eu_opeehueconomicaseu"
     },
-    "oposizioak_eu_opeehuempresarialeseu": {
+    "eus_exams_eu_opeehuempresarialeseu": {
       "acc,none": 0.2785714285714286,
       "acc_stderr,none": 0.026838785110712447,
       "acc_norm,none": 0.2785714285714286,
       "acc_norm_stderr,none": 0.026838785110712447,
-      "alias": " - oposizioak_eu_opeehuempresarialeseu"
+      "alias": " - eus_exams_eu_opeehuempresarialeseu"
     },
-    "oposizioak_eu_opeehusubalternoeu": {
+    "eus_exams_eu_opeehusubalternoeu": {
       "acc,none": 0.275,
       "acc_stderr,none": 0.022353673451850863,
       "acc_norm,none": 0.275,
       "acc_norm_stderr,none": 0.022353673451850863,
-      "alias": " - oposizioak_eu_opeehusubalternoeu"
+      "alias": " - eus_exams_eu_opeehusubalternoeu"
     },
-    "oposizioak_eu_opeehutecnicoeu": {
+    "eus_exams_eu_opeehutecnicoeu": {
       "acc,none": 0.2718168812589413,
       "acc_stderr,none": 0.01683956251778125,
       "acc_norm,none": 0.2718168812589413,
       "acc_norm_stderr,none": 0.01683956251778125,
-      "alias": " - oposizioak_eu_opeehutecnicoeu"
+      "alias": " - eus_exams_eu_opeehutecnicoeu"
     },
-    "oposizioak_eu_opeehuteknikarib": {
+    "eus_exams_eu_opeehuteknikarib": {
       "acc,none": 0.2904841402337229,
       "acc_stderr,none": 0.018564859840938842,
       "acc_norm,none": 0.2904841402337229,
       "acc_norm_stderr,none": 0.018564859840938842,
-      "alias": " - oposizioak_eu_opeehuteknikarib"
+      "alias": " - eus_exams_eu_opeehuteknikarib"
     },
-    "oposizioak_eu_opegasteizkoudala": {
+    "eus_exams_eu_opegasteizkoudala": {
       "acc,none": 0.3333333333333333,
       "acc_stderr,none": 0.024879779028735907,
       "acc_norm,none": 0.3333333333333333,
       "acc_norm_stderr,none": 0.024879779028735907,
-      "alias": " - oposizioak_eu_opegasteizkoudala"
+      "alias": " - eus_exams_eu_opegasteizkoudala"
     },
-    "oposizioak_eu_opeosakiadmineu": {
+    "eus_exams_eu_opeosakiadmineu": {
       "acc,none": 0.2330508474576271,
       "acc_stderr,none": 0.02757875762533662,
       "acc_norm,none": 0.2330508474576271,
       "acc_norm_stderr,none": 0.02757875762533662,
-      "alias": " - oposizioak_eu_opeosakiadmineu"
+      "alias": " - eus_exams_eu_opeosakiadmineu"
     },
-    "oposizioak_eu_opeosakiauxenfeu": {
+    "eus_exams_eu_opeosakiauxenfeu": {
       "acc,none": 0.2994011976047904,
       "acc_stderr,none": 0.03554736535384932,
       "acc_norm,none": 0.2994011976047904,
       "acc_norm_stderr,none": 0.03554736535384932,
-      "alias": " - oposizioak_eu_opeosakiauxenfeu"
+      "alias": " - eus_exams_eu_opeosakiauxenfeu"
     },
-    "oposizioak_eu_opeosakiauxeu": {
+    "eus_exams_eu_opeosakiauxeu": {
       "acc,none": 0.2727272727272727,
       "acc_stderr,none": 0.0347769116216366,
       "acc_norm,none": 0.2727272727272727,
       "acc_norm_stderr,none": 0.0347769116216366,
-      "alias": " - oposizioak_eu_opeosakiauxeu"
+      "alias": " - eus_exams_eu_opeosakiauxeu"
     },
-    "oposizioak_eu_opeosakiceladoreu": {
+    "eus_exams_eu_opeosakiceladoreu": {
       "acc,none": 0.2822085889570552,
       "acc_stderr,none": 0.03536117886664743,
       "acc_norm,none": 0.2822085889570552,
       "acc_norm_stderr,none": 0.03536117886664743,
-      "alias": " - oposizioak_eu_opeosakiceladoreu"
+      "alias": " - eus_exams_eu_opeosakiceladoreu"
     },
-    "oposizioak_eu_opeosakienfeu": {
+    "eus_exams_eu_opeosakienfeu": {
       "acc,none": 0.24664879356568364,
       "acc_stderr,none": 0.022349446494209214,
       "acc_norm,none": 0.24664879356568364,
       "acc_norm_stderr,none": 0.022349446494209214,
-      "alias": " - oposizioak_eu_opeosakienfeu"
+      "alias": " - eus_exams_eu_opeosakienfeu"
     },
-    "oposizioak_eu_opeosakioperarioeu": {
+    "eus_exams_eu_opeosakioperarioeu": {
       "acc,none": 0.2824427480916031,
       "acc_stderr,none": 0.03948406125768361,
       "acc_norm,none": 0.2824427480916031,
       "acc_norm_stderr,none": 0.03948406125768361,
-      "alias": " - oposizioak_eu_opeosakioperarioeu"
+      "alias": " - eus_exams_eu_opeosakioperarioeu"
     },
-    "oposizioak_eu_opeosakitecnicoeu": {
+    "eus_exams_eu_opeosakitecnicoeu": {
       "acc,none": 0.2834890965732087,
       "acc_stderr,none": 0.02519443320813363,
       "acc_norm,none": 0.2834890965732087,
       "acc_norm_stderr,none": 0.02519443320813363,
-      "alias": " - oposizioak_eu_opeosakitecnicoeu"
+      "alias": " - eus_exams_eu_opeosakitecnicoeu"
     },
-    "oposizioak_eu_opeosakivarioseu": {
+    "eus_exams_eu_opeosakivarioseu": {
       "acc,none": 0.2669172932330827,
       "acc_stderr,none": 0.027173270148980255,
       "acc_norm,none": 0.2669172932330827,
       "acc_norm_stderr,none": 0.027173270148980255,
-      "alias": " - oposizioak_eu_opeosakivarioseu"
+      "alias": " - eus_exams_eu_opeosakivarioseu"
     },
-    "oposizioak_eu_osakidetza1e": {
+    "eus_exams_eu_osakidetza1e": {
       "acc,none": 0.2581143740340031,
       "acc_stderr,none": 0.017217033107547162,
       "acc_norm,none": 0.2581143740340031,
       "acc_norm_stderr,none": 0.017217033107547162,
-      "alias": " - oposizioak_eu_osakidetza1e"
+      "alias": " - eus_exams_eu_osakidetza1e"
     },
-    "oposizioak_eu_osakidetza2e": {
+    "eus_exams_eu_osakidetza2e": {
       "acc,none": 0.28475935828877,
       "acc_stderr,none": 0.01651219443728956,
       "acc_norm,none": 0.28475935828877,
       "acc_norm_stderr,none": 0.01651219443728956,
-      "alias": " - oposizioak_eu_osakidetza2e"
+      "alias": " - eus_exams_eu_osakidetza2e"
     },
-    "oposizioak_eu_osakidetza3e": {
+    "eus_exams_eu_osakidetza3e": {
       "acc,none": 0.3442622950819672,
       "acc_stderr,none": 0.020296424088468077,
       "acc_norm,none": 0.3442622950819672,
       "acc_norm_stderr,none": 0.020296424088468077,
-      "alias": " - oposizioak_eu_osakidetza3e"
+      "alias": " - eus_exams_eu_osakidetza3e"
     },
-    "oposizioak_eu_osakidetza5e": {
+    "eus_exams_eu_osakidetza5e": {
       "acc,none": 0.3046153846153846,
       "acc_stderr,none": 0.018066170621098478,
       "acc_norm,none": 0.3046153846153846,
       "acc_norm_stderr,none": 0.018066170621098478,
-      "alias": " - oposizioak_eu_osakidetza5e"
+      "alias": " - eus_exams_eu_osakidetza5e"
     },
-    "oposizioak_eu_osakidetza6e": {
+    "eus_exams_eu_osakidetza6e": {
       "acc,none": 0.321,
       "acc_stderr,none": 0.014770821817934647,
       "acc_norm,none": 0.321,
       "acc_norm_stderr,none": 0.014770821817934647,
-      "alias": " - oposizioak_eu_osakidetza6e"
+      "alias": " - eus_exams_eu_osakidetza6e"
     },
-    "oposizioak_eu_osakidetza7e": {
+    "eus_exams_eu_osakidetza7e": {
       "acc,none": 0.2769301895515488,
       "acc_stderr,none": 0.00962381844367728,
       "acc_norm,none": 0.2769301895515488,
       "acc_norm_stderr,none": 0.00962381844367728,
-      "alias": " - oposizioak_eu_osakidetza7e"
+      "alias": " - eus_exams_eu_osakidetza7e"
     }
   },
   "groups": {
-    "oposizioak_eu": {
+    "eus_exams_eu": {
       "acc,none": 0.28841261765454085,
       "acc_stderr,none": 0.029115116435858172,
       "acc_norm,none": 0.28841261765454085,
       "acc_norm_stderr,none": 0.029115116435858172,
-      "alias": "oposizioak_eu"
+      "alias": "eus_exams_eu"
     }
   },
   "configs": {
-    "oposizioak_eu_ejadministrari": {
-      "task": "oposizioak_eu_ejadministrari",
+    "eus_exams_eu_ejadministrari": {
+      "task": "eus_exams_eu_ejadministrari",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_ejadministrari",
       "test_split": "test",
       "fewshot_split": "test",
@@ -262,12 +262,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_ejlaguntza": {
-      "task": "oposizioak_eu_ejlaguntza",
+    "eus_exams_eu_ejlaguntza": {
+      "task": "eus_exams_eu_ejlaguntza",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_ejlaguntza",
       "test_split": "test",
       "fewshot_split": "test",
@@ -303,12 +303,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_ejlaguntzaile": {
-      "task": "oposizioak_eu_ejlaguntzaile",
+    "eus_exams_eu_ejlaguntzaile": {
+      "task": "eus_exams_eu_ejlaguntzaile",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_ejlaguntzaile",
       "test_split": "test",
       "fewshot_split": "test",
@@ -344,12 +344,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_ejteknikari": {
-      "task": "oposizioak_eu_ejteknikari",
+    "eus_exams_eu_ejteknikari": {
+      "task": "eus_exams_eu_ejteknikari",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_ejteknikari",
       "test_split": "test",
       "fewshot_split": "test",
@@ -385,12 +385,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opebilbaoeu": {
-      "task": "oposizioak_eu_opebilbaoeu",
+    "eus_exams_eu_opebilbaoeu": {
+      "task": "eus_exams_eu_opebilbaoeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opebilbaoeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -426,12 +426,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeehuadmineu": {
-      "task": "oposizioak_eu_opeehuadmineu",
+    "eus_exams_eu_opeehuadmineu": {
+      "task": "eus_exams_eu_opeehuadmineu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeehuadmineu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -467,12 +467,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeehuauxeu": {
-      "task": "oposizioak_eu_opeehuauxeu",
+    "eus_exams_eu_opeehuauxeu": {
+      "task": "eus_exams_eu_opeehuauxeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeehuauxeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -508,12 +508,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeehubiblioeu": {
-      "task": "oposizioak_eu_opeehubiblioeu",
+    "eus_exams_eu_opeehubiblioeu": {
+      "task": "eus_exams_eu_opeehubiblioeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeehubiblioeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -549,12 +549,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeehuderechoeu": {
-      "task": "oposizioak_eu_opeehuderechoeu",
+    "eus_exams_eu_opeehuderechoeu": {
+      "task": "eus_exams_eu_opeehuderechoeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeehuderechoeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -590,12 +590,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeehueconomicaseu": {
-      "task": "oposizioak_eu_opeehueconomicaseu",
+    "eus_exams_eu_opeehueconomicaseu": {
+      "task": "eus_exams_eu_opeehueconomicaseu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeehueconomicaseu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -631,12 +631,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeehuempresarialeseu": {
-      "task": "oposizioak_eu_opeehuempresarialeseu",
+    "eus_exams_eu_opeehuempresarialeseu": {
+      "task": "eus_exams_eu_opeehuempresarialeseu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeehuempresarialeseu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -672,12 +672,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeehusubalternoeu": {
-      "task": "oposizioak_eu_opeehusubalternoeu",
+    "eus_exams_eu_opeehusubalternoeu": {
+      "task": "eus_exams_eu_opeehusubalternoeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeehusubalternoeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -713,12 +713,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeehutecnicoeu": {
-      "task": "oposizioak_eu_opeehutecnicoeu",
+    "eus_exams_eu_opeehutecnicoeu": {
+      "task": "eus_exams_eu_opeehutecnicoeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeehutecnicoeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -754,12 +754,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeehuteknikarib": {
-      "task": "oposizioak_eu_opeehuteknikarib",
+    "eus_exams_eu_opeehuteknikarib": {
+      "task": "eus_exams_eu_opeehuteknikarib",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeehuteknikarib",
       "test_split": "test",
       "fewshot_split": "test",
@@ -795,12 +795,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opegasteizkoudala": {
-      "task": "oposizioak_eu_opegasteizkoudala",
+    "eus_exams_eu_opegasteizkoudala": {
+      "task": "eus_exams_eu_opegasteizkoudala",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opegasteizkoudala",
       "test_split": "test",
       "fewshot_split": "test",
@@ -836,12 +836,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeosakiadmineu": {
-      "task": "oposizioak_eu_opeosakiadmineu",
+    "eus_exams_eu_opeosakiadmineu": {
+      "task": "eus_exams_eu_opeosakiadmineu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeosakiadmineu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -877,12 +877,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeosakiauxenfeu": {
-      "task": "oposizioak_eu_opeosakiauxenfeu",
+    "eus_exams_eu_opeosakiauxenfeu": {
+      "task": "eus_exams_eu_opeosakiauxenfeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeosakiauxenfeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -918,12 +918,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeosakiauxeu": {
-      "task": "oposizioak_eu_opeosakiauxeu",
+    "eus_exams_eu_opeosakiauxeu": {
+      "task": "eus_exams_eu_opeosakiauxeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeosakiauxeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -959,12 +959,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeosakiceladoreu": {
-      "task": "oposizioak_eu_opeosakiceladoreu",
+    "eus_exams_eu_opeosakiceladoreu": {
+      "task": "eus_exams_eu_opeosakiceladoreu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeosakiceladoreu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1000,12 +1000,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeosakienfeu": {
-      "task": "oposizioak_eu_opeosakienfeu",
+    "eus_exams_eu_opeosakienfeu": {
+      "task": "eus_exams_eu_opeosakienfeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeosakienfeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1041,12 +1041,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeosakioperarioeu": {
-      "task": "oposizioak_eu_opeosakioperarioeu",
+    "eus_exams_eu_opeosakioperarioeu": {
+      "task": "eus_exams_eu_opeosakioperarioeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeosakioperarioeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1082,12 +1082,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeosakitecnicoeu": {
-      "task": "oposizioak_eu_opeosakitecnicoeu",
+    "eus_exams_eu_opeosakitecnicoeu": {
+      "task": "eus_exams_eu_opeosakitecnicoeu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeosakitecnicoeu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1123,12 +1123,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_opeosakivarioseu": {
-      "task": "oposizioak_eu_opeosakivarioseu",
+    "eus_exams_eu_opeosakivarioseu": {
+      "task": "eus_exams_eu_opeosakivarioseu",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_opeosakivarioseu",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1164,12 +1164,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_osakidetza1e": {
-      "task": "oposizioak_eu_osakidetza1e",
+    "eus_exams_eu_osakidetza1e": {
+      "task": "eus_exams_eu_osakidetza1e",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_osakidetza1e",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1205,12 +1205,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_osakidetza2e": {
-      "task": "oposizioak_eu_osakidetza2e",
+    "eus_exams_eu_osakidetza2e": {
+      "task": "eus_exams_eu_osakidetza2e",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_osakidetza2e",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1246,12 +1246,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_osakidetza3e": {
-      "task": "oposizioak_eu_osakidetza3e",
+    "eus_exams_eu_osakidetza3e": {
+      "task": "eus_exams_eu_osakidetza3e",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_osakidetza3e",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1287,12 +1287,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_osakidetza5e": {
-      "task": "oposizioak_eu_osakidetza5e",
+    "eus_exams_eu_osakidetza5e": {
+      "task": "eus_exams_eu_osakidetza5e",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_osakidetza5e",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1328,12 +1328,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_osakidetza6e": {
-      "task": "oposizioak_eu_osakidetza6e",
+    "eus_exams_eu_osakidetza6e": {
+      "task": "eus_exams_eu_osakidetza6e",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_osakidetza6e",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1369,12 +1369,12 @@
         "version": 0.0
       }
     },
-    "oposizioak_eu_osakidetza7e": {
-      "task": "oposizioak_eu_osakidetza7e",
+    "eus_exams_eu_osakidetza7e": {
+      "task": "eus_exams_eu_osakidetza7e",
       "group": [
-        "oposizioak_eu"
+        "eus_exams_eu"
       ],
-      "dataset_path": "HiTZ/oposizioak",
+      "dataset_path": "HiTZ/EusExams",
       "dataset_name": "eu_osakidetza7e",
       "test_split": "test",
       "fewshot_split": "test",
@@ -1412,68 +1412,68 @@
     }
   },
   "versions": {
-    "oposizioak_eu": "N/A",
-    "oposizioak_eu_ejadministrari": "Yaml",
-    "oposizioak_eu_ejlaguntza": "Yaml",
-    "oposizioak_eu_ejlaguntzaile": "Yaml",
-    "oposizioak_eu_ejteknikari": "Yaml",
-    "oposizioak_eu_opebilbaoeu": "Yaml",
-    "oposizioak_eu_opeehuadmineu": "Yaml",
-    "oposizioak_eu_opeehuauxeu": "Yaml",
-    "oposizioak_eu_opeehubiblioeu": "Yaml",
-    "oposizioak_eu_opeehuderechoeu": "Yaml",
-    "oposizioak_eu_opeehueconomicaseu": "Yaml",
-    "oposizioak_eu_opeehuempresarialeseu": "Yaml",
-    "oposizioak_eu_opeehusubalternoeu": "Yaml",
-    "oposizioak_eu_opeehutecnicoeu": "Yaml",
-    "oposizioak_eu_opeehuteknikarib": "Yaml",
-    "oposizioak_eu_opegasteizkoudala": "Yaml",
-    "oposizioak_eu_opeosakiadmineu": "Yaml",
-    "oposizioak_eu_opeosakiauxenfeu": "Yaml",
-    "oposizioak_eu_opeosakiauxeu": "Yaml",
-    "oposizioak_eu_opeosakiceladoreu": "Yaml",
-    "oposizioak_eu_opeosakienfeu": "Yaml",
-    "oposizioak_eu_opeosakioperarioeu": "Yaml",
-    "oposizioak_eu_opeosakitecnicoeu": "Yaml",
-    "oposizioak_eu_opeosakivarioseu": "Yaml",
-    "oposizioak_eu_osakidetza1e": "Yaml",
-    "oposizioak_eu_osakidetza2e": "Yaml",
-    "oposizioak_eu_osakidetza3e": "Yaml",
-    "oposizioak_eu_osakidetza5e": "Yaml",
-    "oposizioak_eu_osakidetza6e": "Yaml",
-    "oposizioak_eu_osakidetza7e": "Yaml"
+    "eus_exams_eu": "N/A",
+    "eus_exams_eu_ejadministrari": "Yaml",
+    "eus_exams_eu_ejlaguntza": "Yaml",
+    "eus_exams_eu_ejlaguntzaile": "Yaml",
+    "eus_exams_eu_ejteknikari": "Yaml",
+    "eus_exams_eu_opebilbaoeu": "Yaml",
+    "eus_exams_eu_opeehuadmineu": "Yaml",
+    "eus_exams_eu_opeehuauxeu": "Yaml",
+    "eus_exams_eu_opeehubiblioeu": "Yaml",
+    "eus_exams_eu_opeehuderechoeu": "Yaml",
+    "eus_exams_eu_opeehueconomicaseu": "Yaml",
+    "eus_exams_eu_opeehuempresarialeseu": "Yaml",
+    "eus_exams_eu_opeehusubalternoeu": "Yaml",
+    "eus_exams_eu_opeehutecnicoeu": "Yaml",
+    "eus_exams_eu_opeehuteknikarib": "Yaml",
+    "eus_exams_eu_opegasteizkoudala": "Yaml",
+    "eus_exams_eu_opeosakiadmineu": "Yaml",
+    "eus_exams_eu_opeosakiauxenfeu": "Yaml",
+    "eus_exams_eu_opeosakiauxeu": "Yaml",
+    "eus_exams_eu_opeosakiceladoreu": "Yaml",
+    "eus_exams_eu_opeosakienfeu": "Yaml",
+    "eus_exams_eu_opeosakioperarioeu": "Yaml",
+    "eus_exams_eu_opeosakitecnicoeu": "Yaml",
+    "eus_exams_eu_opeosakivarioseu": "Yaml",
+    "eus_exams_eu_osakidetza1e": "Yaml",
+    "eus_exams_eu_osakidetza2e": "Yaml",
+    "eus_exams_eu_osakidetza3e": "Yaml",
+    "eus_exams_eu_osakidetza5e": "Yaml",
+    "eus_exams_eu_osakidetza6e": "Yaml",
+    "eus_exams_eu_osakidetza7e": "Yaml"
   },
   "n-shot": {
-    "oposizioak_eu": 5,
-    "oposizioak_eu_ejadministrari": 5,
-    "oposizioak_eu_ejlaguntza": 5,
-    "oposizioak_eu_ejlaguntzaile": 5,
-    "oposizioak_eu_ejteknikari": 5,
-    "oposizioak_eu_opebilbaoeu": 5,
-    "oposizioak_eu_opeehuadmineu": 5,
-    "oposizioak_eu_opeehuauxeu": 5,
-    "oposizioak_eu_opeehubiblioeu": 5,
-    "oposizioak_eu_opeehuderechoeu": 5,
-    "oposizioak_eu_opeehueconomicaseu": 5,
-    "oposizioak_eu_opeehuempresarialeseu": 5,
-    "oposizioak_eu_opeehusubalternoeu": 5,
-    "oposizioak_eu_opeehutecnicoeu": 5,
-    "oposizioak_eu_opeehuteknikarib": 5,
-    "oposizioak_eu_opegasteizkoudala": 5,
-    "oposizioak_eu_opeosakiadmineu": 5,
-    "oposizioak_eu_opeosakiauxenfeu": 5,
-    "oposizioak_eu_opeosakiauxeu": 5,
-    "oposizioak_eu_opeosakiceladoreu": 5,
-    "oposizioak_eu_opeosakienfeu": 5,
-    "oposizioak_eu_opeosakioperarioeu": 5,
-    "oposizioak_eu_opeosakitecnicoeu": 5,
-    "oposizioak_eu_opeosakivarioseu": 5,
-    "oposizioak_eu_osakidetza1e": 5,
-    "oposizioak_eu_osakidetza2e": 5,
-    "oposizioak_eu_osakidetza3e": 5,
-    "oposizioak_eu_osakidetza5e": 5,
-    "oposizioak_eu_osakidetza6e": 5,
-    "oposizioak_eu_osakidetza7e": 5
+    "eus_exams_eu": 5,
+    "eus_exams_eu_ejadministrari": 5,
+    "eus_exams_eu_ejlaguntza": 5,
+    "eus_exams_eu_ejlaguntzaile": 5,
+    "eus_exams_eu_ejteknikari": 5,
+    "eus_exams_eu_opebilbaoeu": 5,
+    "eus_exams_eu_opeehuadmineu": 5,
+    "eus_exams_eu_opeehuauxeu": 5,
+    "eus_exams_eu_opeehubiblioeu": 5,
+    "eus_exams_eu_opeehuderechoeu": 5,
+    "eus_exams_eu_opeehueconomicaseu": 5,
+    "eus_exams_eu_opeehuempresarialeseu": 5,
+    "eus_exams_eu_opeehusubalternoeu": 5,
+    "eus_exams_eu_opeehutecnicoeu": 5,
+    "eus_exams_eu_opeehuteknikarib": 5,
+    "eus_exams_eu_opegasteizkoudala": 5,
+    "eus_exams_eu_opeosakiadmineu": 5,
+    "eus_exams_eu_opeosakiauxenfeu": 5,
+    "eus_exams_eu_opeosakiauxeu": 5,
+    "eus_exams_eu_opeosakiceladoreu": 5,
+    "eus_exams_eu_opeosakienfeu": 5,
+    "eus_exams_eu_opeosakioperarioeu": 5,
+    "eus_exams_eu_opeosakitecnicoeu": 5,
+    "eus_exams_eu_opeosakivarioseu": 5,
+    "eus_exams_eu_osakidetza1e": 5,
+    "eus_exams_eu_osakidetza2e": 5,
+    "eus_exams_eu_osakidetza3e": 5,
+    "eus_exams_eu_osakidetza5e": 5,
+    "eus_exams_eu_osakidetza6e": 5,
+    "eus_exams_eu_osakidetza7e": 5
   },
   "config": {
     "model": "hf",
