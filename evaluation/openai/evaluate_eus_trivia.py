@@ -83,6 +83,10 @@ def openai_api_calculate_cost(usage, model="gpt-4-1106-preview"):
             'prompt': 0.01,
             'completion': 0.03,
         },
+        'gpt-4-1106-preview': {
+            'prompt': 0.01,
+            'completion': 0.03,
+        },
         'gpt-4-0613': {
             'prompt': 0.03,
             'completion': 0.06,

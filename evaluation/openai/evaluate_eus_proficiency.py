@@ -61,18 +61,54 @@ def datetime_handler(x):
     raise TypeError("Unknown type")
 
 
+def openai_api_calculate_cost(usage, model="gpt-4-1106-preview"):
+    pricing = {
+        'gpt-3.5-turbo-0125': {
+            'prompt': 0.0005,
+            'completion': 0.0015,
+        },
+        'gpt-4-0125-preview': {
+            'prompt': 0.01,
+            'completion': 0.03,
+        },
+        'gpt-4-1106-preview': {
+            'prompt': 0.01,
+            'completion': 0.03,
+        },
+        'gpt-4-0613': {
+            'prompt': 0.03,
+            'completion': 0.06,
+        }
+    }
+
+    try:
+        model_pricing = pricing[model]
+    except KeyError:
+        raise ValueError("Invalid model specified")
+
+    prompt_cost = usage.prompt_tokens * model_pricing['prompt'] / 1000
+    completion_cost = usage.completion_tokens * model_pricing['completion'] / 1000
+
+    total_cost = prompt_cost + completion_cost
+    # round to 6 decimals
+    total_cost = round(total_cost, 6)
+
+    return total_cost
+
+
 def evaluate_eus_proficiency(split="test", model="gpt-3.5-turbo", shots=5, limit=1):
     # Load your dataset from Hugging Face
     print(f"Loading {split} split...")
     dataset = load_eus_proficiency()
+    
+    tokens = 0
+    cost = 0
 
     # Create the results directory if it doesn't exist
     os.makedirs(f"../results/{model}", exist_ok=True)
 
     # Iterate over your dataset and use the API
     for i, item in enumerate(dataset):
-        print(f"Processing example {i}...")
-
         # Get 5 random few-shot examples
         few_shot_examples = random.sample([ex for ex in dataset if ex != item], shots)
 
@@ -103,6 +139,15 @@ def evaluate_eus_proficiency(split="test", model="gpt-3.5-turbo", shots=5, limit
             response["choices"][0]["message"]["content"]
             == answer2letter[item["answer"]]
         )
+        
+        # Calculate OpenAI API cost and add to the item
+        item["cost"] = openai_api_calculate_cost(completion.usage, model)
+        
+        cost += item["cost"]
+        tokens += completion.usage.total_tokens
+        
+        # Print details in a line: i, total tokens and total cost
+        print(f"{i + 1}: ${cost:.4f} total cost, {tokens:,} tokens")
 
         with open(f"../results/{model}/eus_proficiency_{split}_{shots}-shot.jsonl", "a") as f:
             json.dump(item, f, default=datetime_handler)
