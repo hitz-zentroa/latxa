@@ -19,8 +19,7 @@ path="mistralai"
 model="Mixtral-8x7B-v0.1"
 model_name=$path/$model
 
-# load tasks
-source tasks.sh
+
 
 tasks_selected=(
     "eus_proficiency"

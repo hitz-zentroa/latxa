@@ -18,8 +18,6 @@ path="mistralai"
 model="Mistral-7B-v0.1"
 model_name=$path/$model
 
-# load tasks
-source tasks.sh
 
 # select tasks
 tasks_selected=(

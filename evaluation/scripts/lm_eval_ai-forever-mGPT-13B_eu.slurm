@@ -20,9 +20,6 @@ model="mGPT-13B"
 model_name=$path/$model
 
 
-# load tasks
-source tasks.sh
-
 # select tasks
 tasks_selected=(
     "eus_proficiency"

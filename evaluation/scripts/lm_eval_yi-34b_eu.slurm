@@ -19,8 +19,6 @@ path="01-ai"
 model="Yi-34B"
 model_name=$path/$model
 
-# load tasks
-source tasks.sh
 
 tasks_selected=(
     "eus_proficiency"

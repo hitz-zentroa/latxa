@@ -19,8 +19,6 @@ path="HiTZ"
 model="latxa-70b-v1"
 model_name=$path/$model
 
-# load tasks
-source tasks.sh
 
 # select tasks
 tasks_selected=(

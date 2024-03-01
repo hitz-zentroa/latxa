@@ -19,8 +19,6 @@ path="meta-llama"
 model="Llama-2-7b-hf"
 model_name=$path/$model
 
-# load tasks
-source tasks.sh
 
 # select tasks
 tasks_selected=(
