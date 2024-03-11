@@ -116,7 +116,7 @@ Llama-2-70b: https://huggingface.co/meta-llama/Llama-2-70b
 
 ## Convert Checkpoints
 
-Convert the raw Llama models to Neox format using scripts in `convert` directory. Note that the 70B model uses a different conversion script that takes into account the `n_kv_heads` parameter. Rename the script that in included when cloning the repo to match the name in `convert_raw_llama_weights_to_neox_70b.sh`. For the conversion script of the 7B and 13B models, get the script in the previous commit.
+Convert the raw Llama models to Neox format using scripts in `convert` directory.
 
 ```bash
 cd convert
@@ -168,6 +168,7 @@ bash llama-2-7b-v1.1.sh
 The Neox checkpoints can be converted to HF using the `convert_neox_to_hf.py` script. The script take an input path, the output path, the model config, the precision and the architecture as arguments. You can find example scripts in the `convert` directory. For example, to convert the Latxa 7B v1.1 model, run:
 
 ```bash
+cd convert
 bash convert_neox_to_hf_7b_v1.1.sh
 ```
 
