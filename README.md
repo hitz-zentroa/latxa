@@ -177,7 +177,7 @@ Evaluation scripts for open models are in the `scripts` directory. `openai` dire
 
 ## Install Evaluation Harness
 
-You will need to install our fork of [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) for evaluation in the `evaluation` folder.
+You will need to install our fork of [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness). Clone the repository and checkout the `eustrivia` branch:
 
 ```bash	
 git clone https://github.com/juletx/lm-evaluation-harness
@@ -188,16 +188,28 @@ pip install -e .
 
 ## Run Open Model Evaluation
 
-To run evaluation on open models, use the scripts in the `scripts` directory. For example, to run evaluation on Latxa v1.1 7b, run:
+To run evaluation on open models, use the scripts in the `scripts` directory. Each script evaluates a model in all the tasks. For example, to run evaluation on Latxa v1.1 7b, run:
 
 ```bash
 sbatch lm_eval_latxa-7b-v1.1.slurm
 ```
 
+## Check Evaluation Results
+
+Evaluation results are in the `results` directory. Each model has a directory with the results of the evaluation in each task. The results are in the form of a json file with the average scores of the model in each task.
+
 ## Run OpenAI Model Evaluation
 
-To run evaluation on OpenAI models, use the scripts in the `openai` directory. For example, to run evaluation on GPT-3.5 Turbo on EusTrivia, run:
+To run evaluation on OpenAI models, use the scripts in the `openai` directory. There is a python script to evaluate each dataset, and a bash script for each model and dataset. For example, to run evaluation on GPT-3.5 Turbo on EusTrivia, run:
 
 ```bash
 bash gpt-3.5-turbo-0125_eus_trivia.sh
+```
+
+## Check OpenAI Evaluation Results
+
+Evaluation results are in the `results` directory. Each model has a directory with the results of the evaluation in each task. In this case, all the outputs of the models are saved for each task. Scores can be calculated using the `correct` field. For EusTrivia and EusExams, there are additional scripts to obtained detailed results by category. For example, to get detailed results for GPT-3.5 Turbo on EusTrivia, run:
+
+```bash
+python calculate_accuracy_eus_trivia.py
 ```
