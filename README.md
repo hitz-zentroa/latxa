@@ -22,7 +22,7 @@ We introduce <img src="assets/latxa_round.png" width="18"> Latxa, a family of la
 
 - 📒 Blog Post: [Latxa: An Open Language Model and Evaluation Suite for Basque](https://www.hitz.eus/en/node/340)
 - 📖 Paper: [Latxa: An Open Language Model and Evaluation Suite for Basque](https://openreview.net/forum?id=mMqOvfqFS9)
-- <img src="latxa.jpeg" width="15"> Latxa in the 🤗HuggingFace Hub: [HiTZ/latxa](https://huggingface.co/collections/HiTZ/latxa-65a697e6838b3acc53677304)
+- <img src="assets/latxa_round.png" width="15"> Latxa in the 🤗HuggingFace Hub: [HiTZ/latxa](https://huggingface.co/collections/HiTZ/latxa-65a697e6838b3acc53677304)
 </p>
 
 # Training
@@ -93,16 +93,26 @@ python -m pip install -e .
 Add the `${WORK}` directory as safe directory
 `git config --global --add safe.directory /leonardo_work/EUHPC_E02_013/gpt-neox`
 
-Berriz instalatu flash attention
+Reinstall flash attention
 ```
 pip uninstall flash-attn
 cd flash-attention/
 python setup.py install
 ```
 
+## Download Llama Models
+
+Download the raw Llama models from the following links:
+
+Llama-2-7b: https://huggingface.co/meta-llama/Llama-2-7b
+
+Llama-2-13b: https://huggingface.co/meta-llama/Llama-2-13b
+
+Llama-2-70b: https://huggingface.co/meta-llama/Llama-2-70b
+
 ## Convert Checkpoints
 
-Convert the raw LLama models to Neox format using scripts in `convert` directory. Note that the 70B model uses a different conversion script that takes into account the `n_kv_heads` parameter. Rename the script that in included when cloning the repo to match the name in `convert_raw_llama_weights_to_neox_70b.sh`. For the conversion script of the 7B and 13B models, get the script in the previous commit.
+Convert the raw Llama models to Neox format using scripts in `convert` directory. Note that the 70B model uses a different conversion script that takes into account the `n_kv_heads` parameter. Rename the script that in included when cloning the repo to match the name in `convert_raw_llama_weights_to_neox_70b.sh`. For the conversion script of the 7B and 13B models, get the script in the previous commit.
 
 ```bash
 cd convert
@@ -111,23 +121,25 @@ bash convert_raw_llama_weights_to_neox_13b.sh
 bash convert_raw_llama_weights_to_neox_70b.sh
 ```
 
-There are also scripts to convert HF models to Megatron format if you prefer to use Megatron instead of Neox:
+## Download Data
 
-```bash
-cd convert 
-bash convert_hf_llama_weights_to_megatron_7b.sh
-bash convert_hf_llama_weights_to_megatron_13b.sh
-bash convert_hf_llama_weights_to_megatron_70b.sh
-```
+Download the pretraining data from the following links:
+
+Euscrawl: https://huggingface.co/datasets/HiTZ/euscrawl
+
+Pile: https://huggingface.co/datasets/EleutherAI/pile
+
+Latxa v1.1: https://huggingface.co/datasets/HiTZ/latxa-corpus-v1.1
 
 ## Preprocess Data
 
 Preprocess data using scripts available in `preprocess` directory:
 
-```bash
-cd preprocess
-bash preprocess_data.sh
-```
+To preprocess the Pile dataset, run `bash preprocess_data_pile.sh`.
+
+To preprocess the Latxa v1 dataset, run `bash preprocess_data_latxa-v1.sh`.
+
+To preprocess the Latxa v1.1 dataset, run `bash preprocess_data_latxa-v1.1.sh`.
 
 ## Define Configs
 
@@ -180,6 +192,10 @@ bash convert_llama_sequential_to_hf_7b.sh
 
 # Evaluation
 
+Evaluation scripts for open models are in the `scripts` directory. `openai` directory contains scripts for evaluating openai models. Evaluation results are in the `results` directory.
+
+## Install Evaluation Harness
+
 You will need to install our fork of [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) for evaluation in the `evaluation` folder.
 
 ```bash	
@@ -189,4 +205,18 @@ git checkout eustrivia
 pip install -e .
 ```
 
-Evaluation scripts for finetuned llama models are in the `scripts` directory. Evaluation results are in the `results` directory. `translate` dir contains scripts for translating the evaluation datasets to English. `analysis` dir contains a notebook for analyzing the results.
+## Run Open Model Evaluation
+
+To run evaluation on open models, use the scripts in the `scripts` directory. For example, to run evaluation on Latxa v1.1 7b, run:
+
+```bash
+sbatch lm_eval_latxa-7b-v1.1.slurm
+```
+
+## Run OpenAI Model Evaluation
+
+To run evaluation on OpenAI models, use the scripts in the `openai` directory. For example, to run evaluation on GPT-3.5 Turbo on EusTrivia, run:
+
+```bash
+bash gpt-3.5-turbo-0125_eus_trivia.sh
+```
