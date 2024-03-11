@@ -11,9 +11,6 @@
 
 # activate virtual environment
 source /gaueko0/users/jetxaniz007/phd/venv2/bin/activate
-export TRANSFORMERS_CACHE="/gaueko1/transformers_cache/"
-export TOKENIZERS_PARALLELISM=false
-export HF_DATASETS_CACHE="/sc04a2/users/jibalari/BACKUP/ilenia/llama-eus/hf_datasets_cache"
 
 path="HiTZ"
 model="latxa-13b-v1.1"
@@ -38,7 +35,7 @@ tasks_selected=(
 )
 
 for group_name in "${tasks_selected[@]}"; do
-    if [[ $group_name == "xnli_eu" || $group_name == "xstorycloze_eu" ]]; then
+    if [[ $group_name == "xstorycloze_eu" ]]; then
         num_fewshot=0
     else
         num_fewshot=5

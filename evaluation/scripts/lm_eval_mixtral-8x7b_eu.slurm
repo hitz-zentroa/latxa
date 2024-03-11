@@ -11,9 +11,6 @@
 
 # activate virtual environment
 source /gaueko0/users/jetxaniz007/phd/venv2/bin/activate
-export TRANSFORMERS_CACHE="/gaueko1/transformers_cache/"
-export HF_DATASETS_CACHE="/gaueko0/users/jetxaniz007/.cache/huggingface/datasets/"
-export TOKENIZERS_PARALLELISM=false
 
 path="mistralai"
 model="Mixtral-8x7B-v0.1"
@@ -37,7 +34,7 @@ tasks_selected=(
 )
 
 for group_name in "${tasks_selected[@]}"; do
-    if [[ $group_name == "xnli_eu" || $group_name == "xstorycloze_eu" ]]; then
+    if [[ $group_name == "xstorycloze_eu" ]]; then
         num_fewshot=0
     else
         num_fewshot=5

@@ -36,7 +36,7 @@ tasks_selected=(
 )
 
 for group_name in "${tasks_selected[@]}"; do
-    if [[ $group_name == "xnli_eu" || $group_name == "xstorycloze_eu" ]]; then
+    if [[ $group_name == "xstorycloze_eu" ]]; then
         num_fewshot=0
     else
         num_fewshot=5
