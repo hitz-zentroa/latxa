@@ -23,7 +23,7 @@ module load git-lfs
 cd ${WORK}/gpt-neox
 
 # setup the virtual env
-source ${WORK}/environments/neox-env-2/bin/activate
+source ${WORK}/environments/neox-env/bin/activate
 
 # train data sizes: 100, 200, 400, 500
 sizes=()

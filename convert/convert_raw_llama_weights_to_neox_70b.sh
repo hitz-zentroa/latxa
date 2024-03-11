@@ -16,10 +16,10 @@ cd ${WORK}/gpt-neox/
 
 source ${WORK}/environments/neox-env/bin/activate
 
-cd tools
+cd tools/ckpts/
 
 for TP in 4; do
-    python convert_raw_llama_gqa_weights_to_neox.py \
+    python convert_raw_llama_weights_to_neox.py \
         --input_dir ${path}Llama-2-70b \
         --model_size 70B \
         --output_dir ${path}Llama-2-70b-neox-TP-${TP}-PP \

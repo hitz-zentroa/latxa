@@ -14,7 +14,7 @@
 #--open-mode=append
 
 # setup the virtual env
-source ${WORK}/environments/neox-env-2/bin/activate
+source ${WORK}/environments/neox-env/bin/activate
 
 # load leonardo modules
 module load profile/deeplrn

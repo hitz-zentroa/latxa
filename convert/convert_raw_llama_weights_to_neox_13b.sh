@@ -3,7 +3,7 @@ cd ${WORK}/gpt-neox/
 
 source ${WORK}/environments/neox-env/bin/activate
 
-cd tools
+cd tools/ckpts/
 
 for TP in 1 2 4; do
     python convert_raw_llama_weights_to_neox.py \

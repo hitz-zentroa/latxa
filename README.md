@@ -27,9 +27,11 @@ We introduce <img src="assets/latxa_round.png" width="18"> Latxa, a family of la
 
 # Training
 
-Code for training models on the Leonardo cluster. This uses GPT-Neox and Megatron for more efficient training.
+Code for training models on the [CINECA HPC Leonardo](https://wiki.u-gov.it/confluence/display/SCAIUS/UG3.2%3A+LEONARDO+UserGuide) cluster using [GPT-Neox](https://github.com/EleutherAI/gpt-neox). If you train on another cluster you will need to update some settings. Check the GPT-Neox documentation if you have any doubts. 
 
-## Install GPT-Neox
+The training process is divided into several steps: loading the required modules, creating a virtual environment, installing GPT-Neox, downloading the Llama models, converting the checkpoints, downloading the data, preprocessing the data, defining the training configs, setting up wandb, running the training, and converting the Neox checkpoints to HF.
+
+## Load Modules
 
 Install modules needed for GPT-Neox. You can add this to `.bashrc` so that modules are loaded automatically:
 
@@ -42,62 +44,36 @@ module load zlib/1.2.13--gcc--11.3.0
 module load git-lfs
 ```
 
-Clone the repository and checkout the `llemma` branch:
-
-```bash
-git clone https://github.com/EleutherAI/gpt-neox
-cd gpt-neox
-git checkout llemma
-```
+## Create Virtual Environment
 
 Create a virtual environment:
 
 ```bash
-python -m venv venv
+python -m venv $WORK/environments/neox-env
 ```
 
 Activate the virtual environment. You can add this to `.bashrc` so that the virtual environment is activated automatically:
 
 ```bash
-source venv/bin/activate
+source $WORK/environments/neox-env/bin/activate
 ```
 
-Comment `flash-attn` and `fused-kernels` from `requirements.txt` to avoid errors:
+## Install GPT-Neox
 
-Remove also `torch==2.0.1` to install only the cuda version.
+Clone the repository and install the requirements:
+
+```bash
+git clone https://github.com/EleutherAI/gpt-neox
+cd gpt-neox
+```
 
 Install the requirements:
 
 ```bash
-pip install -r requirements.txt
-```
-
-Install torch with: `pip install torch==2.0.1 --index-url https://download.pytorch.org/whl/cu118`
-
-Install `flash-attn` and `fused-kernels`:
-    
-```bash
-pip install flash-attn==2.0.6
-pip install fused-kernels@file:///leonardo_work/EUHPC_E02_013/gpt-neox/megatron/fused_kernels
-```
-
-## Install DeeperSpeed
-
-Install fixed DeepSpeed
-```bash
-git clone https://github.com/EleutherAI/DeeperSpeed
-cd ${WORK}/DeeperSpeed
-python -m pip install -e .
-```
-
-Add the `${WORK}` directory as safe directory
-`git config --global --add safe.directory /leonardo_work/EUHPC_E02_013/gpt-neox`
-
-Reinstall flash attention
-```
-pip uninstall flash-attn
-cd flash-attention/
-python setup.py install
+pip install -r requirements/requirements.txt
+pip install -r requirements/requirements-wandb.txt
+pip install -r requirements/requirements-flashattention.txt
+python ./megatron/fused_kernels/setup.py install # optional, if using fused kernels
 ```
 
 ## Download Llama Models
@@ -175,19 +151,19 @@ wandb sync $WORK/gpt-neox/wandb
 
 ## Run Training
 
-Run training using scripts available in `train` directory:
+Run training using scripts available in `train` directory. There are scripts for Latxa v1 and v1.1 models of three sizes. For example, to train Latxa 7B v1.1, run:
 
 ```bash
-cd train
-bash llama-2-7b.sh
+cd train/latxa-7b
+bash llama-2-7b-v1.1.sh
 ```
 
 ## Convert Neox Checkpoints to HF
 
-The Neox checkpoints can be converted to HF using the `convert_llama_sequential_to_hf.py` and `convert_llama_gqa_sequential_to_hf.py` scripts. The `convert_llama_sequential_to_hf.py` script can be used to convert the 7B and 13B models. The `convert_llama_gqa_sequential_to_hf.py` script can be used to convert the 70B model. The scripts take an input path, the output path and the model config as arguments. You can find example scripts in the `convert` directory. For example, to convert the 7B model, run:
+The Neox checkpoints can be converted to HF using the `convert_neox_to_hf.py` script. The script take an input path, the output path, the model config, the precision and the architecture as arguments. You can find example scripts in the `convert` directory. For example, to convert the Latxa 7B v1.1 model, run:
 
 ```bash
-bash convert_llama_sequential_to_hf_7b.sh
+bash convert_neox_to_hf_7b_v1.1.sh
 ```
 
 # Evaluation
