@@ -76,6 +76,34 @@ pip install -r requirements/requirements-flashattention.txt
 python ./megatron/fused_kernels/setup.py install # optional, if using fused kernels
 ```
 
+## Setup Wandb
+
+As the Leonardo cluster does not have internet connection, offline mode must be used. Change default wandb config directory:
+
+```bash
+export WANDB_CONFIG_DIR=$HOME/.wandb
+```
+
+Login to wandb:
+
+```bash
+wandb login
+```
+
+Change wandb to offline mode:
+
+```bash
+wandb offline
+```
+
+Logs with be saved to `$WORK/gpt-neox/wandb` directory.
+
+To sync logs to wandb, run:
+
+```bash
+wandb sync $WORK/gpt-neox/wandb
+```
+
 ## Download Llama Models
 
 Download the raw Llama models from the following links:
@@ -119,35 +147,12 @@ To preprocess the Latxa v1.1 dataset, run `bash preprocess_data_latxa-v1.1.sh`.
 
 ## Define Configs
 
-Define training configs in the `configs` directory. You can use the existing configs as a template.
+Define training configs in the `configs` directory. You can use the existing configs as a template. There are two base configs which are common to all models, and include details such as checkpointing and logging. The first one is used for 7B and 13B models, and the other one for 70B models. Additional configs are divided into 4 folders, depending on the type of parameters: data, deepspeed, hyperparameters and models.
 
-## Setup Wandb
-
-Change default wandb config directory:
-
-```bash
-export WANDB_CONFIG_DIR=$HOME/.wandb
-```
-
-Login to wandb:
-
-```bash
-wandb login
-```
-
-Change wandb to offline mode:
-
-```bash
-wandb offline
-```
-
-Logs with be saved to `$WORK/gpt-neox/wandb` directory.
-
-To sync logs to wandb, run:
-
-```bash
-wandb sync $WORK/gpt-neox/wandb
-```
+- `data`: contains the data configuration files for Latxa v1 and v1.1.
+- `deepspeed`: contains the deepspeed configuration file for Zero 1.
+- `hyperparameters`: contains the hyperparameters configuration files for Latxa v1 and v1.1 of three sizes.
+- `models`: contains the model configuration files for three sizes.
 
 ## Run Training
 

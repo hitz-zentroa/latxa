@@ -25,14 +25,6 @@
   "use_wandb": true,
   "wandb_project": "llama-eus",
   "wandb_team": "hitz-zentroa",
-  # "wandb":
-  #   {
-  #     "enabled": true,
-  #     "group": "llama-2-7b",
-  #     "project": "llama-eus",
-  #     "team": "hitz-zentroa",
-  #   },
-  # "wandb_host": "https://api.wandb.ai",
   "launcher": "slurm",
   "deepspeed_slurm": true,
   "no_ssh_check": true,

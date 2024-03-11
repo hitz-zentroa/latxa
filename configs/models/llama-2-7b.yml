@@ -14,8 +14,6 @@
   "output_layer_parallelism": "column",
   "norm": "rmsnorm",
   "rms_norm_epsilon": 1.0e-5,
-  # "multiple_of": 256, 
-  # "ffn_dim_multiplier": 1.,
 
   "attention_config": [[["flash"], 32]],
 
