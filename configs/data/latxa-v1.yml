@@ -1,5 +1,17 @@
 {
-  "train-data-paths": ["/leonardo_work/EUHPC_E02_013/preprocessed_data/mixed_data/euscrawl_train_thepile_train100k/text_document"],
-  "valid-data-paths": ["/leonardo_work/EUHPC_E02_013/preprocessed_data/euscrawl/valid/text_document"],
-  "test-data-paths": ["/leonardo_work/EUHPC_E02_013/preprocessed_data/euscrawl/valid/text_document"],
+  "train-data-paths":
+    [
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/euscrawl/train/text_document",
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/thepile/train-sample-100k_text_document",
+    ],
+  "valid-data-paths":
+    [
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/euscrawl/valid/text_document",
+    ],
+  "test-data-paths":
+    [
+      "/leonardo_work/EUHPC_E02_013/preprocessed_data/euscrawl/test/text_document",
+    ],
+  "weight_by_num_documents": true,
+  "weighted_sampler_alpha": 1.0,
 }

@@ -44,7 +44,7 @@ for dir in ${WORK}/data/ilenia/v1/jsonl/*; do
             num_lines=$(zcat "$dir/${split}.jsonl.gz" | wc -l)
 
             # Preprocess the data
-            python tools/preprocess_data.py \
+            python tools/datasets/preprocess_data.py \
                 --input "$WORK/data/ilenia/v1/jsonl/${subfolder}/${split}.jsonl.gz" \
                 --output-prefix "$WORK/preprocessed_data/ilenia/v1/${subfolder}/${split}" \
                 --tokenizer-type "SPMTokenizer" \

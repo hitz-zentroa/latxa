@@ -12,22 +12,17 @@ cd ${WORK}/gpt-neox
 # setup the virtual env
 source ${WORK}/environments/neox-env/bin/activate
 
-# validation data
-python tools/preprocess_data.py \
-    --input "$WORK/data/euscrawl/euscrawl-v1-free-jsonl/valid.jsonl" \
-    --output-prefix "$WORK/preprocessed_data/euscrawl/valid/" \
-    --tokenizer-type "SPMTokenizer" \
-    --vocab-file "/leonardo_scratch/large/userexternal/jetxaniz/Llama-2-7b/tokenizer.model" \
-    --num-docs 10000 \
-    --append-eod \
-    --workers 8
+# train, validation, and test data
+for split in "train" "valid" "test"; do
+    # Calculate the number of lines in the file
+    num_lines=$(zcat "$dir/${split}.jsonl.gz" | wc -l)
 
-# train data
-python tools/preprocess_data.py \
-    --input "$WORK/data/mixed_data/euscrawl_train_thepile_train100k.jsonl" \
-    --output-prefix "$WORK/preprocessed_data/mixed_data/euscrawl_train_thepile_train100k/" \
-    --tokenizer-type "SPMTokenizer" \
-    --vocab-file "/leonardo_scratch/large/userexternal/jetxaniz/Llama-2-7b/tokenizer.model" \
-    --num-docs 1814545 \
-    --append-eod \
-    --workers 8
+    python tools/datasets/preprocess_data.py \
+        --input "$WORK/data/euscrawl/euscrawl/${split}.jsonl" \
+        --output-prefix "$WORK/preprocessed_data/euscrawl/${split}/" \
+        --tokenizer-type "SPMTokenizer" \
+        --vocab-file "/leonardo_scratch/large/userexternal/jetxaniz/Llama-2-7b/tokenizer.model" \
+        --num-docs $num_lines \
+        --append-eod \
+        --workers 8
+done

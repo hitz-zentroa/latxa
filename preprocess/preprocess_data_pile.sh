@@ -26,7 +26,7 @@ cd ${WORK}/gpt-neox
 source ${WORK}/environments/neox-env/bin/activate
 
 # train data sizes: 100, 500
-sizes=()
+sizes=(100 500)
 
 for size in "${sizes[@]}"; do
     echo "Preprocessing thepile size $size"
