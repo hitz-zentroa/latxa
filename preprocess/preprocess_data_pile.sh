@@ -25,29 +25,14 @@ cd ${WORK}/gpt-neox
 # setup the virtual env
 source ${WORK}/environments/neox-env/bin/activate
 
-# train data sizes: 100, 200, 400, 500
+# train data sizes: 100, 500
 sizes=()
 
 for size in "${sizes[@]}"; do
     echo "Preprocessing thepile size $size"
-    python tools/preprocess_data.py \
+    python tools/datasets/preprocess_data.py \
         --input "$WORK/data/thepile/train-sample-${size}k.jsonl" \
         --output-prefix "$WORK/preprocessed_data/thepile/train-sample-${size}k" \
-        --tokenizer-type "SPMTokenizer" \
-        --vocab-file "/leonardo_scratch/large/userexternal/jetxaniz/Llama-2-7b/tokenizer.model" \
-        --num-docs ${size}000 \
-        --append-eod \
-        --workers 8
-done
-
-# validation data sizes: 100
-sizes=(10)
-
-for size in "${sizes[@]}"; do
-    echo "Preprocessing thepile size $size"
-    python tools/preprocess_data.py \
-        --input "$WORK/data/thepile/valid-sample-${size}k.jsonl" \
-        --output-prefix "$WORK/preprocessed_data/thepile/valid-sample-${size}k" \
         --tokenizer-type "SPMTokenizer" \
         --vocab-file "/leonardo_scratch/large/userexternal/jetxaniz/Llama-2-7b/tokenizer.model" \
         --num-docs ${size}000 \
