@@ -214,3 +214,16 @@ Evaluation results are in the `results` directory. Each model has a directory wi
 ```bash
 python calculate_accuracy_eus_trivia.py
 ```
+
+# Citation
+
+To cite our work, please use:
+
+@misc{etxaniz2024latxa,
+      title={{L}atxa: An Open Language Model and Evaluation Suite for {B}asque}, 
+      author={Julen Etxaniz and Oscar Sainz and Naiara Perez and Itziar Aldabe and German Rigau and Eneko Agirre and Aitor Ormazabal and Mikel Artetxe and Aitor Soroa},
+      year={2024},
+      eprint={2403.20266},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
