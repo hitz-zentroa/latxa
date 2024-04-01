@@ -215,6 +215,10 @@ Evaluation results are in the `results` directory. Each model has a directory wi
 python calculate_accuracy_eus_trivia.py
 ```
 
+# Acknowledgements
+
+This work has been partially supported by the Basque Government (IKER-GAITU project). It has also been partially supported by the Ministerio para la Transformación Digital y de la Función Pública - Funded by EU – NextGenerationEU within the framework of the project with reference 2022/TL22/00215335. The models were trained on the Leonardo supercomputer at CINECA under the EuroHPC Joint Undertaking, project EHPC-EXT-2023E01-013.
+
 # Citation
 
 To cite our work, please use:
