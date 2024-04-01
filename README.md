@@ -178,12 +178,11 @@ Evaluation scripts for open models are in the `scripts` directory. `openai` dire
 
 ## Install Evaluation Harness
 
-You will need to install our fork of [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness). Clone the repository and checkout the `eustrivia` branch:
+You will need to install [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness). Clone the repository and install the requirements:
 
 ```bash	
-git clone https://github.com/juletx/lm-evaluation-harness
+git clone https://github.com/EleutherAI/lm-evaluation-harness
 cd lm-evaluation-harness
-git checkout eustrivia
 pip install -e .
 ```
 
@@ -225,7 +224,7 @@ To cite our work, please use:
 
 ```bibtex
 @misc{etxaniz2024latxa,
-      title={{L}atxa: An Open Language Model and Evaluation Suite for {B}asque}, 
+      title={Latxa: An Open Language Model and Evaluation Suite for Basque}, 
       author={Julen Etxaniz and Oscar Sainz and Naiara Perez and Itziar Aldabe and German Rigau and Eneko Agirre and Aitor Ormazabal and Mikel Artetxe and Aitor Soroa},
       year={2024},
       eprint={2403.20266},
