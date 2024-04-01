@@ -9,7 +9,7 @@
     <a href="https://github.com/hitz-zentroa/latxa/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/hitz-zentroa/latxa"></a>
     <a href="https://huggingface.co/collections/HiTZ/latxa-65a697e6838b3acc53677304"><img alt="Pretrained Models" src="https://img.shields.io/badge/🤗HuggingFace-Pretrained Models-green"></a>
     <a href="https://www.hitz.eus/en/node/340"><img alt="Blog" src="https://img.shields.io/badge/📒-Blog Post-blue"></a>
-    <a href="https://openreview.net/forum?id=mMqOvfqFS9"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
+    <a href="https://arxiv.org/abs/2403.20266"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
 <br>
      <a href="http://www.hitz.eus/"><img src="https://img.shields.io/badge/HiTZ-Basque%20Center%20for%20Language%20Technology-blueviolet"></a>
     <a href="http://www.ixa.eus/?language=en"><img src="https://img.shields.io/badge/IXA-%20NLP%20Group-ff3333"></a>
@@ -21,7 +21,7 @@
 We introduce <img src="assets/latxa_round.png" width="18"> Latxa, a family of large language models for Basque ranging from 7 to 70 billion parameters. Latxa is based on Llama 2, which we continue pretraining on a new Basque corpus comprising 4.3M documents and 4.2B tokens. Addressing the scarcity of high-quality benchmarks for Basque, we further introduce 4 multiple choice evaluation datasets: EusProficiency, comprising 5,169 questions from official language proficiency exams; EusReading, comprising 352 reading comprehension questions; EusTrivia, comprising 1,715 trivia questions from 5 knowledge areas; and EusExams, comprising 16,046 questions from public examinations. In our extensive evaluation, Latxa outperforms all previous open models we compare to by a large margin. In addition, it is competitive with GPT-4 Turbo in language proficiency and understanding, despite lagging behind in reading comprehension and knowledge-intensive tasks. Both the Latxa family of models, as well as our new pretraining corpora and evaluation datasets, are publicly available under open licenses. Our suite enables reproducible research on methods to build LLMs for low-resource languages.
 
 - 📒 Blog Post: [Latxa: An Open Language Model and Evaluation Suite for Basque](https://www.hitz.eus/en/node/340)
-- 📖 Paper: [Latxa: An Open Language Model and Evaluation Suite for Basque](https://openreview.net/forum?id=mMqOvfqFS9)
+- 📖 Paper: [Latxa: An Open Language Model and Evaluation Suite for Basque](https://arxiv.org/abs/2403.20266)
 - <img src="assets/latxa_round.png" width="15"> Latxa in the 🤗HuggingFace Hub: [HiTZ/latxa](https://huggingface.co/collections/HiTZ/latxa-65a697e6838b3acc53677304)
 </p>
 
