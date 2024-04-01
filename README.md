@@ -219,6 +219,7 @@ python calculate_accuracy_eus_trivia.py
 
 To cite our work, please use:
 
+```bibtex
 @misc{etxaniz2024latxa,
       title={{L}atxa: An Open Language Model and Evaluation Suite for {B}asque}, 
       author={Julen Etxaniz and Oscar Sainz and Naiara Perez and Itziar Aldabe and German Rigau and Eneko Agirre and Aitor Ormazabal and Mikel Artetxe and Aitor Soroa},
@@ -227,3 +228,4 @@ To cite our work, please use:
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
