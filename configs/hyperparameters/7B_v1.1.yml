@@ -9,7 +9,6 @@
     },
 
   "train_micro_batch_size_per_gpu": 8,
-  # "gradient_accumulation_steps": 4,
   "gradient_accumulation_steps": 1,
 
   "gradient_clipping": 1.0,
@@ -17,8 +16,8 @@
   "hidden_dropout": 0,
   "attention_dropout": 0,
 
-  "train_iters": 20000,
-  "lr_decay_iters": 20000,
+  "train_iters": 10000,
+  "lr_decay_iters": 10000,
   "lr_decay_style": "cosine",
   "decay_lr_to": 0.033,
   "warmup_iters": 1000,
