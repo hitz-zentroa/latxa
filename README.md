@@ -96,7 +96,7 @@ Change wandb to offline mode:
 wandb offline
 ```
 
-Logs with be saved to `$WORK/gpt-neox/wandb` directory.
+Logs will be saved to `$WORK/gpt-neox/wandb` directory.
 
 To sync logs to wandb, run:
 
