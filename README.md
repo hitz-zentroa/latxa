@@ -25,6 +25,26 @@ We introduce <img src="assets/latxa_round.png" width="18"> Latxa, a family of la
 - <img src="assets/latxa_round.png" width="15"> Latxa in the 🤗HuggingFace Hub: [HiTZ/latxa](https://huggingface.co/collections/HiTZ/latxa-65a697e6838b3acc53677304)
 </p>
 
+# Getting started
+
+Use the code below to get started with the model.
+```python
+from transformers import pipeline
+
+pipe = pipeline("text-generation", model="HiTZ/latxa-7b-v1.1")
+
+text = "Euskara adimen artifizialera iritsi da!"
+
+pipe(text, max_new_tokens=50, num_beams=5)
+
+>> [
+ {
+  'generated_text': 'Euskara adimen artifizialera iritsi da!\nEuskararen eta adimen artifizialaren arteko harremana aspaldikoa da,'
+  ' baina azken urteotan aurrerapauso handiak eman dira arlo horretan'
+ }
+]
+```
+
 # Training
 
 Code for training models on the [CINECA HPC Leonardo](https://wiki.u-gov.it/confluence/display/SCAIUS/UG3.2%3A+LEONARDO+UserGuide) cluster using [GPT-Neox](https://github.com/EleutherAI/gpt-neox). If you train on another cluster you will need to update some settings. Check the GPT-Neox documentation if you have any doubts. 
