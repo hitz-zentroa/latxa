@@ -234,6 +234,13 @@ Evaluation results are in the `results` directory. Each model has a directory wi
 python calculate_accuracy_eus_trivia.py
 ```
 
+# Versioning
+We keep updating and improving our base model, this section covers the major releases and changes we made. We recommend users always to use the latest version available.
+
+* [v1.2-latest](https://huggingface.co/HiTZ/latxa-7b-v1.2): (bug-fix in v1.1) Avoids generating JSON-like responses.
+* [v1.1](https://huggingface.co/HiTZ/latxa-7b-v1.1): (improvement) The model is trained with much more corpora. Please take a look at the ACL paper for more details.
+* [v1.0](https://huggingface.co/HiTZ/latxa-7b-v1): Initial version.
+
 # Acknowledgements
 
 This work has been partially supported by the Basque Government (IKER-GAITU project). It has also been partially supported by the Ministerio para la Transformación Digital y de la Función Pública - Funded by EU – NextGenerationEU within the framework of the project with reference 2022/TL22/00215335. The models were trained on the Leonardo supercomputer at CINECA under the EuroHPC Joint Undertaking, project EHPC-EXT-2023E01-013.
